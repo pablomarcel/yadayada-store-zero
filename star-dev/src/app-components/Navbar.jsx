@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div>
-        <img src="https://fontmeme.com/permalink/220522/9b924195db7e3a66e0995df903672788.png" alt="star-dev"/>
+        <img src="https://fontmeme.com/permalink/220522/0bafee88ce1e973f69ae759e2b3b927b.png" alt="star-dev"/>
         <br />
         <br />
         <div className="links">

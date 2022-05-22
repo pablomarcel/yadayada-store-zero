@@ -3,20 +3,20 @@ const Home = () => {
   return (
 
     <div className="home">
-      <h2>Welcome to Star Dev</h2>
+      <h2>Welcome to Poké Dev</h2>
 
-      <p>This app explores content from The Star Wars Universe</p>
+      <p>This app explores content from Pokémon Universe</p>
 
       <p>Click on a link above to start</p>
 
-      <p>Data Source courtesy of The Star Wars API:</p>
+      <p>Data Source courtesy of The Pokemon API:</p>
 
       <br/>
 
       <div className="swapi">
 
         <div className="links">
-          <a href="https://swapi.dev/"
+          <a href="https://pokeapi.co/"
              style={{
                color: 'white',
                backgroundColor: '#f1356d',
@@ -24,7 +24,7 @@ const Home = () => {
                padding: 8
 
              }}
-          >SWAPI</a>
+          >Pokémon API</a>
 
         </div>
 
