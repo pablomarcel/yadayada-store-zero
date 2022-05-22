@@ -28,14 +28,14 @@ export default function StarshipList({starShips}) {
   return(
     <div>
 
-      <div>
+      {/*<div>*/}
 
-        <Pagination
-          previous={starShips.previous}
-          next={starShips.next}
-        />
+      {/*  <Pagination*/}
+      {/*    previous={starShips.previous}*/}
+      {/*    next={starShips.next}*/}
+      {/*  />*/}
 
-      </div>
+      {/*</div>*/}
 
       {starshipList}
 

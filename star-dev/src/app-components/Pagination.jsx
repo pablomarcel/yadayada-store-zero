@@ -1,4 +1,5 @@
 const Pagination = ({previous, next}) => {
+
   return (
     <nav className="pagination">
       <div>

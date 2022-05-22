@@ -28,14 +28,14 @@ export default function CharactersList({characters}) {
   return(
     <div>
 
-      <div>
+      {/*<div>*/}
 
-        <Pagination
-          previous={characters.previous}
-          next={characters.next}
-        />
+      {/*  <Pagination*/}
+      {/*    previous={characters.previous}*/}
+      {/*    next={characters.next}*/}
+      {/*  />*/}
 
-      </div>
+      {/*</div>*/}
 
       {characterList}
 

@@ -32,14 +32,14 @@ export default function VehicleList({vehicles}) {
   return(
     <div>
 
-      <div>
+      {/*<div>*/}
 
-        <Pagination
-          previous={vehicles.previous}
-          next={vehicles.next}
-        />
+      {/*  <Pagination*/}
+      {/*    previous={vehicles.previous}*/}
+      {/*    next={vehicles.next}*/}
+      {/*  />*/}
 
-      </div>
+      {/*</div>*/}
 
       {vehicleList}
 

@@ -28,14 +28,14 @@ export default function PlanetList({planets}) {
   return(
     <div>
 
-      <div>
+      {/*<div>*/}
 
-        <Pagination
-          previous={planets.previous}
-          next={planets.next}
-        />
+      {/*  <Pagination*/}
+      {/*    previous={planets.previous}*/}
+      {/*    next={planets.next}*/}
+      {/*  />*/}
 
-      </div>
+      {/*</div>*/}
 
       {planetList}
 

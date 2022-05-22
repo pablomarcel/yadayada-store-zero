@@ -156,3 +156,7 @@ code {
   padding-left: 20px;
   text-decoration: none;
 }
+
+.pagination-buttons {
+  padding: 0 20px;
+}
