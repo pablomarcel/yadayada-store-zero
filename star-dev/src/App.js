@@ -26,7 +26,7 @@ function App() {
             <Route path="/planets" element = {<Planets />}/>
             <Route path="/planets/:id" element = {<Planet />}/>
             <Route path="/pokemons" element = {<Pokemons />}/>
-            <Route path="/vehicles/:id" element = {<Pokemon />}/>
+            <Route path="/pokemons/:id" element = {<Pokemon />}/>
             <Route path="*" element = {<NotFound />}/>
 
           </Routes>

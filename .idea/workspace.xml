@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="new project using the pokemon API. refactored code, able to fetch list of pokemons, and able to paginate">
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Vehicle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Pokemon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/VehicleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PokemonList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Vehicles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Pokemons.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pokemon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Pokemon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PokemonList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PokemonList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +59,7 @@
       <workItem from="1652851464031" duration="606000" />
       <workItem from="1653173572986" duration="25676000" />
       <workItem from="1653199482069" duration="396000" />
-      <workItem from="1653233060024" duration="5795000" />
+      <workItem from="1653233060024" duration="6101000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -177,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653237890509</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="new project using the pokemon API. refactored code, able to fetch list of pokemons, and able to paginate">
+      <created>1653247702766</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1653247702766</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +213,7 @@
     <MESSAGE value="able to handle errors in pagination" />
     <MESSAGE value="cleaned up. prop-types pending" />
     <MESSAGE value="Final Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
+    <MESSAGE value="new project using the pokemon API. refactored code, able to fetch list of pokemons, and able to paginate" />
+    <option name="LAST_COMMIT_MESSAGE" value="new project using the pokemon API. refactored code, able to fetch list of pokemons, and able to paginate" />
   </component>
 </project>

@@ -4,7 +4,7 @@ export default function Pokemon(){
 
   const {id} = useParams()
 
-  const { data: pokemon, error, isPending} = useFetch('https://swapi.dev/api/pokemon/'+id)
+  const { data: pokemon, error, isPending} = useFetch('https://pokeapi.co/api/v2/pokemon/'+id)
 
   return(
 
