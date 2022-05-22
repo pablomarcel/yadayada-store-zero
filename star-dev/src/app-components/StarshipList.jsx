@@ -6,6 +6,25 @@ import Pagination from "./Pagination";
 
 export default function StarshipList({starShips}) {
 
+  const starshipList = starShips.results.map((starship)=>(
+
+    <div key={starship.url}>
+
+      <Link to={`/starships/${starship.url.charAt(starship.url.length-2)}`} style={{
+        textDecoration:"none"
+      }}>
+
+        <h2>{starship.name}</h2>
+        <p>Manufacturer: {starship.manufacturer}</p>
+
+      </Link>
+
+    </div>
+
+
+  ))
+
+
   return(
     <div>
 
@@ -18,25 +37,7 @@ export default function StarshipList({starShips}) {
 
       </div>
 
-      {starShips.results.map((starship)=>(
-        // const url = starship.url
-
-        <div key={starship.url}>
-
-
-
-          <Link to={`/starships/${9}`} style={{
-            textDecoration:"none"
-          }}>
-
-            <h2>{starship.name}</h2>
-            <p>Manufacturer: {starship.manufacturer}</p>
-
-          </Link>
-
-        </div>
-
-      ))}
+      {starshipList}
 
     </div>
 

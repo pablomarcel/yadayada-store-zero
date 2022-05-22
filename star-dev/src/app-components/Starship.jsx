@@ -33,9 +33,6 @@ export default function Starship({starship}){
 
     </div>
 
-
-
   )
-
 
 }
