@@ -1,17 +1,9 @@
 import { useParams} from "react-router-dom";
 import useFetch from "./useFetch"
 import {CardMedia, Container} from '@mui/material';
-import Masonry from 'react-masonry-css'
 import {Card} from "@mui/material";
-import {CardHeader} from "@mui/material";
 import {CardContent} from "@mui/material";
-import {IconButton} from "@mui/material";
 import {Typography} from "@mui/material";
-import DeleteOutlined from "@mui/material"
-import {makeStyles} from "@mui/material";
-import {Avatar} from "@mui/material";
-import {yellow, green, pink, blue} from "@mui/material/colors"
-
 
 export default function Pokemon(){
 
@@ -23,7 +15,7 @@ export default function Pokemon(){
 
     <div className="home">
 
-      {pokemon && (
+      {!error && pokemon && (
         <div>
 
           <Card elevation={2}>

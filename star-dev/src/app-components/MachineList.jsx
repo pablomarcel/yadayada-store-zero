@@ -4,14 +4,8 @@ import PropTypes from 'prop-types';
 import {Container} from '@mui/material';
 import Masonry from 'react-masonry-css'
 import {Card} from "@mui/material";
-import {CardHeader} from "@mui/material";
 import {CardContent} from "@mui/material";
-import {IconButton} from "@mui/material";
 import {Typography} from "@mui/material";
-import DeleteOutlined from "@mui/material"
-import {makeStyles} from "@mui/material";
-import {Avatar} from "@mui/material";
-import {yellow, green, pink, blue} from "@mui/material/colors"
 
 export default function MachineList({machines}) {
 
@@ -35,9 +29,6 @@ export default function MachineList({machines}) {
             <Link to={`/machines/${machine.url.split('/')[machine.url.split('/').length-2]}`} style={{
               textDecoration:"none"
             }}>
-
-              {/*<h2>{machine.name}</h2>*/}
-              {/*<h2>{1}</h2>*/}
 
               <h2>{machine.url.split('/')[machine.url.split('/').length-2]}</h2>
 

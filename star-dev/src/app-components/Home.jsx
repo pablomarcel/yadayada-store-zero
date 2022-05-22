@@ -4,13 +4,9 @@ const Home = () => {
 
     <div className="home">
       <h2>Welcome to Poké Dev</h2>
-
       <p>This app explores content from Pokémon Universe</p>
-
       <p>Click on a link above to start</p>
-
       <p>Data Source courtesy of The Pokemon API:</p>
-
       <br/>
 
       <div className="swapi">
