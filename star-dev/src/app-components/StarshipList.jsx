@@ -25,8 +25,10 @@ export default function StarshipList({starShips}) {
           <Link to={starship.url} style={{
             textDecoration:"none"
           }}>
+
             <h2>{starship.name}</h2>
             <p>Manufacturer: {starship.manufacturer}</p>
+
           </Link>
 
         </div>

@@ -5,6 +5,10 @@ import Starships from "./app-components/Starships";
 import Characters from "./app-components/Characters";
 import Planets from "./app-components/Planets";
 import Vehicles from "./app-components/Vehicles";
+import Starship from "./app-components/Starship";
+import NotFound from "./app-components/NotFound";
+
+
 
 function App() {
   return (
@@ -19,9 +23,14 @@ function App() {
 
             <Route path="/starships" element = {<Starships />}/>
 
+            {/*<Route path="/starships/:id" element = {<Starship />}/>*/}
+
             <Route path="/planets" element = {<Planets />}/>
 
             <Route path="/vehicles" element = {<Vehicles />}/>
+
+            <Route path="*" element = {<NotFound />}/>
+
 
           </Routes>
         </div>

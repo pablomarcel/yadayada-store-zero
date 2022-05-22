@@ -133,3 +133,26 @@ code {
   padding-left: 20px;
   text-decoration: none;
 }
+
+.error-page {
+  padding: 0 20px;
+  color: #f1356d;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.error-page h2 {
+  font-size: 30px;
+  color: #48C2F9;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.error-page p {
+  font-size: 20px;
+  color: #282c34;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  text-decoration: none;
+}
