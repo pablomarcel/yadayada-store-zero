@@ -10,7 +10,7 @@ export default function StarshipList({starShips}) {
 
     <div key={starship.url}>
 
-      <Link to={`/starships/${starship.url.charAt(starship.url.length-2)}`} style={{
+      <Link to={`/starships/${starship.url.split('/')[starship.url.split('/').length-2]}`} style={{
         textDecoration:"none"
       }}>
 

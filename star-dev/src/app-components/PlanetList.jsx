@@ -10,7 +10,7 @@ export default function PlanetList({planets}) {
 
     <div key={planet.url}>
 
-      <Link to={`/planets/${planet.url.charAt(planet.url.length-2)}`} style={{
+      <Link to={`/planets/${planet.url.split('/')[planet.url.split('/').length-2]}`} style={{
         textDecoration:"none"
       }}>
 

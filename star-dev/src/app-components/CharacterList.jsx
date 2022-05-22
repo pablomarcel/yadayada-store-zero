@@ -10,7 +10,7 @@ export default function CharactersList({characters}) {
 
     <div key={character.url}>
 
-      <Link to={`/people/${character.url.charAt(character.url.length-2)}`} style={{
+      <Link to={`/people/${character.url.split('/')[character.url.split('/').length-2]}`} style={{
         textDecoration:"none"
       }}>
 

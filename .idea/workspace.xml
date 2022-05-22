@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="characters and starships working">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Planet.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Vehicle.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="planets and vehicles working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/VehicleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/VehicleList.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +57,7 @@
       <workItem from="1652680207141" duration="572000" />
       <workItem from="1652846723117" duration="4510000" />
       <workItem from="1652851464031" duration="606000" />
-      <workItem from="1653173572986" duration="18784000" />
+      <workItem from="1653173572986" duration="19491000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -125,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653191456845</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="planets and vehicles working">
+      <created>1653192535043</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653192535043</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +156,7 @@
     <MESSAGE value="able to click on a starship and display details" />
     <MESSAGE value="able to display details for any starship" />
     <MESSAGE value="characters and starships working" />
-    <option name="LAST_COMMIT_MESSAGE" value="characters and starships working" />
+    <MESSAGE value="planets and vehicles working" />
+    <option name="LAST_COMMIT_MESSAGE" value="planets and vehicles working" />
   </component>
 </project>

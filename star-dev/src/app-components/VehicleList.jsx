@@ -10,9 +10,13 @@ export default function VehicleList({vehicles}) {
 
     <div key={vehicle.url}>
 
-      <Link to={`/vehicles/${vehicle.url.charAt(vehicle.url.length-2)}`} style={{
+      <Link to={`/vehicles/${vehicle.url.split('/')[vehicle.url.split('/').length-2]}`} style={{
         textDecoration:"none"
       }}>
+
+      {/*<Link to={`/vehicles/${vehicle.url.charAt(vehicle.url.length-2)}`} style={{*/}
+      {/*  textDecoration:"none"*/}
+      {/*}}>*/}
 
         <h2>{vehicle.name}</h2>
         <p>Model: {vehicle.model}</p>
