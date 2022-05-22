@@ -17,7 +17,7 @@ For this assignment, you'll be creating an app to view a collection of fictional
 You may choose from one of the following APIs.
 
 * [Star Wars API](https://swapi.dev/)
-* [Pokemon API](https://pokeapi.co/)
+* [Pokemons API](https://pokeapi.co/)
 * [Star Trek API](http://stapi.co)
 
 Please note that these APIs will rate-limit you. Read the documentation and be aware of the rate-limiting enabled on each API. If you find yourself calling the API too many times, look into downloading an example response and use that while building out your app, or waiting.
@@ -53,7 +53,7 @@ Note that these are the only requirements. The APIs may have pagination for gett
 ### Inspiration
 
 * [Star Wars databank](https://www.starwars.com/databank)
-* [Giant Bomb original 150 Pokemon](https://www.giantbomb.com/profile/wakka/lists/the-150-original-pokemon/59579/)
+* [Giant Bomb original 150 Pokemons](https://www.giantbomb.com/profile/wakka/lists/the-150-original-pokemon/59579/)
 
 ## Submission
 

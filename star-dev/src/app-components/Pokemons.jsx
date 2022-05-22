@@ -1,28 +1,30 @@
 import React from 'react';
-import VehicleList from './VehicleList'
+import PokemonList from './PokemonList'
 import useFetch from "./useFetch";
 import {useState} from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
-export default function Vehicles() {
+export default function Pokemons() {
 
-  const [page, setPage] = useState("1")
+  // const [page, setPage] = useState("1")
+  const [offset, setOffset] = useState("0")
+  const limit = "20"
 
-  const {error, isPending, data: vehicles} = useFetch(`https://swapi.dev/api/vehicles/?page=${page}`)
+  const {error, isPending, data: pokemons} = useFetch(`https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`)
 
   function handleNext(){
-    const pageNumber = Number(page)
-    const nextPage = pageNumber+1
-    setPage(String(nextPage))
-    console.log(page)
+    const offsetNumber = Number(offset)
+    const nextPage = offsetNumber+20
+    setOffset(String(nextPage))
+    console.log(offset)
   }
 
   function handlePrevious(){
-    const pageNumber = Number(page)
-    const previousPage = pageNumber-1
-    setPage(String(previousPage))
-    console.log(page)
+    const offsetNumber = Number(offset)
+    const previousPage = offsetNumber-20
+    setOffset(String(previousPage))
+    console.log(offset)
   }
 
   return(
@@ -53,7 +55,7 @@ export default function Vehicles() {
 
       <div className="home">
 
-        { !error && vehicles && <VehicleList vehicles={vehicles}/>}
+        { !error && pokemons && <PokemonList pokemons={pokemons}/>}
 
         <br/>
 

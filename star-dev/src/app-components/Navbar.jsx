@@ -33,13 +33,13 @@ const Navbar = () => {
              }}
           >Planets</a>
 
-          <a href="/vehicles"
+          <a href="/pokemons"
              style={{
                color: 'white',
                backgroundColor: '#48C2F9',
                borderRadius: '8px'
              }}
-          >Vehicles</a>
+          >Pokemons</a>
 
         </div>
 
