@@ -22,7 +22,10 @@ export default function StarshipList({starShips}) {
         // const url = starship.url
 
         <div key={starship.url}>
-          <Link to={starship.url} style={{
+
+
+
+          <Link to={`/starships/${9}`} style={{
             textDecoration:"none"
           }}>
 

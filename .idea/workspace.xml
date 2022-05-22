@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to display list of items for characters, starships, planets and vehicles. need detail views">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/NotFound.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added NotFound Page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Starship.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starship.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +58,7 @@
       <workItem from="1652680207141" duration="572000" />
       <workItem from="1652846723117" duration="4510000" />
       <workItem from="1652851464031" duration="606000" />
-      <workItem from="1653173572986" duration="14109000" />
+      <workItem from="1653173572986" duration="15040000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -97,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653185923837</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added NotFound Page">
+      <created>1653187949119</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1653187949119</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +125,7 @@
     <MESSAGE value="able to fetch a list of starships. need pagination" />
     <MESSAGE value="updated css, added pagination buttons" />
     <MESSAGE value="able to display list of items for characters, starships, planets and vehicles. need detail views" />
-    <option name="LAST_COMMIT_MESSAGE" value="able to display list of items for characters, starships, planets and vehicles. need detail views" />
+    <MESSAGE value="added NotFound Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="added NotFound Page" />
   </component>
 </project>

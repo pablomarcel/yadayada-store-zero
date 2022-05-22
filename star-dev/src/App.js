@@ -23,7 +23,7 @@ function App() {
 
             <Route path="/starships" element = {<Starships />}/>
 
-            {/*<Route path="/starships/:id" element = {<Starship />}/>*/}
+            <Route path="/starships/:id" element = {<Starship />}/>
 
             <Route path="/planets" element = {<Planets />}/>
 
