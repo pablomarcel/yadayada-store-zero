@@ -1,30 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import {Link} from 'react-router-dom'
 
+import StarshipList from './StarshipList'
+import useFetch from "./useFetch";
+
 // import PropTypes from 'prop-types';
 
-export default function StarshipList({starShips}) {
+export default function Starships() {
+
+  const {error, isPending, data: starShips} = useFetch(`https://swapi.dev/api/starships/`)
 
   return(
-    <div>
-      {starShips.results.map((starship)=>(
-        // const url = starship.url
+    <div className="home">
 
-        <div key={starship.url}>
-          <Link to={starship.url}>
-            <h2>{starship.name}</h2>
-            <p>{starship.manufacturer}</p>
-          </Link>
-
-        </div>
-
-      ))}
+      { starShips && <StarshipList starShips={starShips}/>}
 
     </div>
-
   )
-
-
 
 
 }
@@ -35,7 +27,7 @@ export default function StarshipList({starShips}) {
 //     fetch(`https://swapi.dev/api/starships/`)
 //       .then(response => response.json())
 //       .then(data => {
-//         // .then(results => {
+//       // .then(results => {
 //         console.log(data.results)
 //         setData(data);
 //         // console.log(data)

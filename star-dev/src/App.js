@@ -1,7 +1,7 @@
 import Navbar from './app-components/Navbar';
 import Home from './app-components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import StarshipList from "./app-components/StarshipList";
+import Starships from "./app-components/Starships";
 import CharacterList from "./app-components/ CharacterList";
 import PlanetList from "./app-components/PlanetList";
 import VehicleList from "./app-components/VehicleList";
@@ -17,7 +17,7 @@ function App() {
 
             <Route path="/characters" element = {<CharacterList />}/>
 
-            <Route path="/starships" element = {<StarshipList />}/>
+            <Route path="/starships" element = {<Starships />}/>
 
             <Route path="/planets" element = {<PlanetList />}/>
 

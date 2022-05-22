@@ -20,6 +20,17 @@ code {
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
+
+.swapi {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  /*border-bottom: 1px solid #f2f2f2;*/
+}
+
+
 .navbar h1 {
   color: #f1356d;
 }
@@ -41,7 +52,7 @@ code {
 }
 
 /* blog previews / list */
-.blog-preview {
+.starship-preview {
   padding: 10px 16px;
   margin: 20px 0;
   border-bottom: 1px solid #fafafa;
@@ -52,5 +63,17 @@ code {
 .blog-preview h2 {
   font-size: 20px;
   color: #48C2F9;
+  margin-bottom: 8px;
+}
+
+.home h2 {
+  font-size: 30px;
+  color: #48C2F9;
+  margin-bottom: 8px;
+}
+
+.home p {
+  font-size: 20px;
+  color: #f1356d;
   margin-bottom: 8px;
 }

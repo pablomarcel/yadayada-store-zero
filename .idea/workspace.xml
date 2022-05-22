@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/ CharacterList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/BlogList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/useFetch.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="barebones app displaying a single character, starship, planet and vehicle">
+      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starship.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starships.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/useFetch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/useFetch.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +62,7 @@
       <workItem from="1652680207141" duration="572000" />
       <workItem from="1652846723117" duration="4510000" />
       <workItem from="1652851464031" duration="606000" />
-      <workItem from="1653173572986" duration="3236000" />
+      <workItem from="1653173572986" duration="8398000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -75,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652847299407</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="barebones app displaying a single character, starship, planet and vehicle">
+      <created>1653177082924</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653177082924</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,6 +97,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="barebones app displaying a single character, starship, planet and vehicle" />
+    <option name="LAST_COMMIT_MESSAGE" value="barebones app displaying a single character, starship, planet and vehicle" />
   </component>
 </project>
