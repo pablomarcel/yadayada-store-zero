@@ -6,6 +6,25 @@ import Pagination from "./Pagination";
 
 export default function PlanetList({planets}) {
 
+  const planetList = planets.results.map((planet)=>(
+
+    <div key={planet.url}>
+
+      <Link to={`/planets/${planet.url.charAt(planet.url.length-2)}`} style={{
+        textDecoration:"none"
+      }}>
+
+        <h2>{planet.name}</h2>
+        <p>Population: {planet.population}</p>
+
+      </Link>
+
+    </div>
+
+
+  ))
+
+
   return(
     <div>
 
@@ -18,20 +37,7 @@ export default function PlanetList({planets}) {
 
       </div>
 
-      {planets.results.map((planet)=>(
-        // const url = starship.url
-
-        <div key={planet.url}>
-          <Link to={planet.url} style={{
-            textDecoration:"none"
-          }}>
-            <h2>{planet.name}</h2>
-            <p>Population: {planet.population}</p>
-          </Link>
-
-        </div>
-
-      ))}
+      {planetList}
 
     </div>
 
