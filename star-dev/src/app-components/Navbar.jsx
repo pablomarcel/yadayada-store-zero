@@ -14,6 +14,15 @@ const Navbar = () => {
                borderRadius: '8px'
              }}
           >Home</a>
+          <a href="/pokemons"
+             style={{
+               color: 'white',
+               // backgroundColor: '#48C2F9',
+               // backgroundColor: '#6200ea',
+               backgroundColor: '#f1356d',
+               borderRadius: '8px'
+             }}
+          >Pokemons</a>
           <a href="/characters" style={{
             color: 'white',
             // backgroundColor: '#48C2F9',
@@ -24,27 +33,21 @@ const Navbar = () => {
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
-               backgroundColor: '#e62310',
-               borderRadius: '8px'
-             }}
-          >Starships</a>
-          <a href="/planets"
-             style={{
-               color: 'white',
-               // backgroundColor: '#48C2F9',
                backgroundColor: '#fccf00',
                borderRadius: '8px'
              }}
-          >Planets</a>
-
-          <a href="/pokemons"
+          >Starships</a>
+          <a href="/berries"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
-               backgroundColor: '#6200ea',
+               // backgroundColor: '#fccf00',
+               backgroundColor: '#e62310',
                borderRadius: '8px'
              }}
-          >Pokemons</a>
+          >Berries</a>
+
+
 
         </div>
 

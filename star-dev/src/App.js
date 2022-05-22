@@ -3,12 +3,12 @@ import Home from './app-components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Starships from "./app-components/Starships";
 import Characters from "./app-components/Characters";
-import Planets from "./app-components/Planets";
+import Berrys from "./app-components/Berrys";
 import Pokemons from "./app-components/Pokemons";
 import Starship from "./app-components/Starship";
 import NotFound from "./app-components/NotFound";
 import Character from "./app-components/Character";
-import Planet from "./app-components/Planet";
+import Berry from "./app-components/Berry";
 import Pokemon from "./app-components/Pokemon";
 
 function App() {
@@ -23,8 +23,8 @@ function App() {
             <Route path="/people/:id" element = {<Character />}/>
             <Route path="/starships" element = {<Starships />}/>
             <Route path="/starships/:id" element = {<Starship />}/>
-            <Route path="/planets" element = {<Planets />}/>
-            <Route path="/planets/:id" element = {<Planet />}/>
+            <Route path="/berries" element = {<Berrys />}/>
+            <Route path="/berries/:id" element = {<Berry />}/>
             <Route path="/pokemons" element = {<Pokemons />}/>
             <Route path="/pokemons/:id" element = {<Pokemon />}/>
             <Route path="*" element = {<NotFound />}/>
