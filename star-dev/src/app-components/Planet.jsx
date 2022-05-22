@@ -25,7 +25,5 @@ export default function Planet(){
       )}
 
     </div>
-
   )
-
 }

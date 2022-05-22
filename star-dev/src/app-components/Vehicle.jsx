@@ -1,6 +1,5 @@
 import { useParams} from "react-router-dom";
 import useFetch from "./useFetch"
-
 export default function Vehicle(){
 
   const {id} = useParams()

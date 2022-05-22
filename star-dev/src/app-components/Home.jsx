@@ -5,7 +5,7 @@ const Home = () => {
     <div className="home">
       <h2>Welcome to Star Dev</h2>
 
-      <p>This app explores content from Star Wars Universe</p>
+      <p>This app explores content from The Star Wars Universe</p>
 
       <p>Click on a link above to start</p>
 

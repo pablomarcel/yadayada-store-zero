@@ -7,9 +7,7 @@ const NotFound = () => {
       <p>That page cannot be found</p>
       <br/>
       <Link className={"error-page"} to="/">
-
         Home
-
       </Link>
     </div>
   );

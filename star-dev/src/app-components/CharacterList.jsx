@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 export default function CharactersList({characters}) {
 
@@ -20,21 +19,10 @@ export default function CharactersList({characters}) {
 
     </div>
 
-
   ))
-
 
   return(
     <div>
-
-      {/*<div>*/}
-
-      {/*  <Pagination*/}
-      {/*    previous={characters.previous}*/}
-      {/*    next={characters.next}*/}
-      {/*  />*/}
-
-      {/*</div>*/}
 
       {characterList}
 
@@ -44,3 +32,8 @@ export default function CharactersList({characters}) {
 
 }
 
+CharactersList.propTypes = {
+
+  characters: PropTypes.arrayOf(PropTypes.object).isRequired
+
+}

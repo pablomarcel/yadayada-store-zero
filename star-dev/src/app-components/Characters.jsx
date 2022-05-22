@@ -5,7 +5,6 @@ import {useState} from 'react';
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
-
 export default function Characters() {
 
   const [page, setPage] = useState("1")
@@ -52,7 +51,6 @@ export default function Characters() {
 
       </div>
 
-
       <div className="home">
 
         { !error && characters && <CharacterList characters={characters}/>}
@@ -61,20 +59,14 @@ export default function Characters() {
 
         <div className="error-message">
 
-
           {error && <div>{error}</div>}
 
         </div>
 
       </div>
 
-
     </div>
 
-
-
   )
-
-
 }
 

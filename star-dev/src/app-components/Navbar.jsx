@@ -41,9 +41,7 @@ const Navbar = () => {
              }}
           >Vehicles</a>
 
-
         </div>
-
 
       </div>
 

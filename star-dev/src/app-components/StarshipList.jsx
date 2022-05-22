@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
-
-// import PropTypes from 'prop-types';
+import PropTypes from 'prop-types';
 
 export default function StarshipList({starShips}) {
 
@@ -20,9 +19,7 @@ export default function StarshipList({starShips}) {
 
     </div>
 
-
   ))
-
 
   return(
     <div>
@@ -35,3 +32,6 @@ export default function StarshipList({starShips}) {
 
 }
 
+StarshipList.propTypes = {
+  starShips: PropTypes.arrayOf(PropTypes.object).isRequired
+}

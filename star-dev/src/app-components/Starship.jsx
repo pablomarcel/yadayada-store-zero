@@ -4,9 +4,7 @@ import useFetch from "./useFetch"
 export default function Starship(){
 
   const {id} = useParams()
-
   const { data: starShip, error, isPending} = useFetch('https://swapi.dev/api/starships/'+id)
-
 
   return(
 

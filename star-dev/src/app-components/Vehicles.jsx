@@ -5,7 +5,6 @@ import {useState} from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
 
-
 export default function Vehicles() {
 
   const [page, setPage] = useState("1")

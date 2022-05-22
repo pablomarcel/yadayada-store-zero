@@ -5,7 +5,6 @@ import {useState} from 'react';
 import Stack from "@mui/material/Stack";
 import Button from "@mui/material/Button";
 
-
 export default function Planets() {
 
   const [page, setPage] = useState("1")
@@ -71,7 +70,6 @@ export default function Planets() {
 
 
   )
-
 
 }
 

@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import PropTypes from 'prop-types';
 
 const useFetch = (url) => {
   const [data, setData] = useState(null);
@@ -6,11 +7,11 @@ const useFetch = (url) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // setTimeout(() => {
+
       fetch(url)
         .then(res => {
           if (!res.ok) { // error coming back from server
-            throw Error('could not fetch the data for that resource');
+            throw Error('Unable to fetch data');
           }
           return res.json();
         })
@@ -24,10 +25,16 @@ const useFetch = (url) => {
           setIsPending(false);
           setError(err.message);
         })
-    // }, 1);
+
   }, [url])
 
   return { data, isPending, error };
+}
+
+useFetch.propTypes = {
+
+  url: PropTypes.string.isRequired
+
 }
 
 export default useFetch;

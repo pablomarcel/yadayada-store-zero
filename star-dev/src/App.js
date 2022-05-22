@@ -19,25 +19,15 @@ function App() {
         <div className="content">
           <Routes>
             <Route exact path="/" element = {<Home />}/>
-
             <Route path="/characters" element = {<Characters />}/>
-
             <Route path="/people/:id" element = {<Character />}/>
-
             <Route path="/starships" element = {<Starships />}/>
-
             <Route path="/starships/:id" element = {<Starship />}/>
-
             <Route path="/planets" element = {<Planets />}/>
-
             <Route path="/planets/:id" element = {<Planet />}/>
-
             <Route path="/vehicles" element = {<Vehicles />}/>
-
             <Route path="/vehicles/:id" element = {<Vehicle />}/>
-
             <Route path="*" element = {<NotFound />}/>
-
 
           </Routes>
         </div>
