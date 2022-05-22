@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="cleaned up. prop-types pending">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/data/db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Character.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Character.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CharacterList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CharacterList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Characters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Characters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/NotFound.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Planet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Planet.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Planets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Planets.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Starship.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starship.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Starships.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starships.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Vehicle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Vehicle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/VehicleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/VehicleList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Vehicles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Vehicles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/useFetch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/useFetch.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +55,7 @@
       <workItem from="1652851464031" duration="606000" />
       <workItem from="1653173572986" duration="25676000" />
       <workItem from="1653199482069" duration="396000" />
-      <workItem from="1653233060024" duration="2907000" />
+      <workItem from="1653233060024" duration="3536000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -177,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653199286162</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Final Commit">
+      <created>1653236174807</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1653236174807</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +194,7 @@
     <MESSAGE value="pagination is working. need to handle fetch errors" />
     <MESSAGE value="able to handle errors in pagination" />
     <MESSAGE value="cleaned up. prop-types pending" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up. prop-types pending" />
+    <MESSAGE value="Final Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
   </component>
 </project>
