@@ -61,7 +61,6 @@ export default function Planets() {
 
         <div className="error-message">
 
-
           {error && <div>{error}</div>}
 
         </div>

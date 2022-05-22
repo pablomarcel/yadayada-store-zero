@@ -11,8 +11,6 @@ import Character from "./app-components/Character";
 import Planet from "./app-components/Planet";
 import Vehicle from "./app-components/Vehicle";
 
-
-
 function App() {
   return (
     <Router>

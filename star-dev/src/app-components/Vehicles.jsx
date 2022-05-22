@@ -8,8 +8,6 @@ import Stack from '@mui/material/Stack';
 
 export default function Vehicles() {
 
-
-
   const [page, setPage] = useState("1")
 
   const {error, isPending, data: vehicles} = useFetch(`https://swapi.dev/api/vehicles/?page=${page}`)
@@ -62,7 +60,6 @@ export default function Vehicles() {
 
         <div className="error-message">
 
-
           {error && <div>{error}</div>}
 
         </div>
@@ -71,9 +68,7 @@ export default function Vehicles() {
 
     </div>
 
-
   )
-
 
 }
 

@@ -1,6 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom'
-import Pagination from "./Pagination";
 
 // import PropTypes from 'prop-types';
 
@@ -27,15 +26,6 @@ export default function PlanetList({planets}) {
 
   return(
     <div>
-
-      {/*<div>*/}
-
-      {/*  <Pagination*/}
-      {/*    previous={planets.previous}*/}
-      {/*    next={planets.next}*/}
-      {/*  />*/}
-
-      {/*</div>*/}
 
       {planetList}
 

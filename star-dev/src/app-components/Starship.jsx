@@ -1,16 +1,12 @@
 import { useParams} from "react-router-dom";
 import useFetch from "./useFetch"
-// import StarshipList from "./StarshipList";
 
-export default function Starship({starship}){
+export default function Starship(){
 
   const {id} = useParams()
 
-  // const {error, isPending, data: starShips} = useFetch(`https://swapi.dev/api/starships/`)
-
   const { data: starShip, error, isPending} = useFetch('https://swapi.dev/api/starships/'+id)
 
-  // const history = useHistory()
 
   return(
 
@@ -28,8 +24,6 @@ export default function Starship({starship}){
 
         </article>
       )}
-
-      {/*{ starShip && <StarshipList starShips={starShips}/>}*/}
 
     </div>
 
