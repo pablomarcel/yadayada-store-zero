@@ -4,7 +4,26 @@ import Pagination from "./Pagination";
 
 // import PropTypes from 'prop-types';
 
-export default function CharacterList({characters}) {
+export default function CharactersList({characters}) {
+
+  const characterList = characters.results.map((character)=>(
+
+    <div key={character.url}>
+
+      <Link to={`/people/${character.url.charAt(character.url.length-2)}`} style={{
+        textDecoration:"none"
+      }}>
+
+        <h2>{character.name}</h2>
+        <p>Date of Birth: {character.birth_year}</p>
+
+      </Link>
+
+    </div>
+
+
+  ))
+
 
   return(
     <div>
@@ -18,20 +37,7 @@ export default function CharacterList({characters}) {
 
       </div>
 
-      {characters.results.map((character)=>(
-        // const url = starship.url
-
-        <div key={character.url}>
-          <Link to={character.url} style={{
-            textDecoration:"none"
-          }}>
-            <h2>{character.name}</h2>
-            <p>Date of Birth: {character.birth_year}</p>
-          </Link>
-
-        </div>
-
-      ))}
+      {characterList}
 
     </div>
 

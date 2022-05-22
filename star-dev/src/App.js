@@ -7,6 +7,7 @@ import Planets from "./app-components/Planets";
 import Vehicles from "./app-components/Vehicles";
 import Starship from "./app-components/Starship";
 import NotFound from "./app-components/NotFound";
+import Character from "./app-components/Character";
 
 
 
@@ -26,6 +27,8 @@ function App() {
             <Route path="/starships/:id" element = {<Starship />}/>
 
             <Route path="/planets" element = {<Planets />}/>
+
+            <Route path="/people/:id" element = {<Character />}/>
 
             <Route path="/vehicles" element = {<Vehicles />}/>
 
