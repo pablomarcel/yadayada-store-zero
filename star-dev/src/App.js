@@ -1,11 +1,11 @@
 import Navbar from './app-components/Navbar';
 import Home from './app-components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Starships from "./app-components/Starships";
+import Machines from "./app-components/Machines";
 import Items from "./app-components/Items";
 import Berrys from "./app-components/Berrys";
 import Pokemons from "./app-components/Pokemons";
-import Starship from "./app-components/Starship";
+import Machine from "./app-components/Machine";
 import NotFound from "./app-components/NotFound";
 import Item from "./app-components/Item";
 import Berry from "./app-components/Berry";
@@ -21,8 +21,8 @@ function App() {
             <Route exact path="/" element = {<Home />}/>
             <Route path="/items" element = {<Items />}/>
             <Route path="/items/:id" element = {<Item />}/>
-            <Route path="/starships" element = {<Starships />}/>
-            <Route path="/starships/:id" element = {<Starship />}/>
+            <Route path="/machines" element = {<Machines />}/>
+            <Route path="/machines/:id" element = {<Machine />}/>
             <Route path="/berries" element = {<Berrys />}/>
             <Route path="/berries/:id" element = {<Berry />}/>
             <Route path="/pokemons" element = {<Pokemons />}/>

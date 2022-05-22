@@ -29,14 +29,14 @@ const Navbar = () => {
             backgroundColor: '#44af35',
             borderRadius: '8px'
           }}>Items</a>
-          <a href="/starships"
+          <a href="/machines"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
                backgroundColor: '#fccf00',
                borderRadius: '8px'
              }}
-          >Starships</a>
+          >Machines</a>
           <a href="/berries"
              style={{
                color: 'white',
