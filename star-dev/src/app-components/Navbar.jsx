@@ -23,12 +23,12 @@ const Navbar = () => {
                borderRadius: '8px'
              }}
           >Pokemons</a>
-          <a href="/characters" style={{
+          <a href="/items" style={{
             color: 'white',
             // backgroundColor: '#48C2F9',
             backgroundColor: '#44af35',
             borderRadius: '8px'
-          }}>Characters</a>
+          }}>Items</a>
           <a href="/starships"
              style={{
                color: 'white',

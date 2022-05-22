@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="pokemon detail working">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="pokemons and berries are working">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Character.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CharacterList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ItemList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Characters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Items.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Planet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Berry.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/BerryList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Planets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Berrys.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <workItem from="1653173572986" duration="25676000" />
       <workItem from="1653199482069" duration="396000" />
       <workItem from="1653233060024" duration="14498000" />
-      <workItem from="1653256444117" duration="1409000" />
+      <workItem from="1653256444117" duration="2170000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -212,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653254764904</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="pokemons and berries are working">
+      <created>1653257888975</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1653257888975</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +257,7 @@
     <MESSAGE value="able to add Material-UI Styles" />
     <MESSAGE value="Material UI Tweaks" />
     <MESSAGE value="pokemon detail working" />
-    <option name="LAST_COMMIT_MESSAGE" value="pokemon detail working" />
+    <MESSAGE value="pokemons and berries are working" />
+    <option name="LAST_COMMIT_MESSAGE" value="pokemons and berries are working" />
   </component>
 </project>
