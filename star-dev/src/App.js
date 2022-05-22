@@ -2,9 +2,9 @@ import Navbar from './app-components/Navbar';
 import Home from './app-components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Starships from "./app-components/Starships";
-import CharacterList from "./app-components/ CharacterList";
-import PlanetList from "./app-components/PlanetList";
-import VehicleList from "./app-components/VehicleList";
+import Characters from "./app-components/Characters";
+import Planets from "./app-components/Planets";
+import Vehicles from "./app-components/Vehicles";
 
 function App() {
   return (
@@ -15,13 +15,13 @@ function App() {
           <Routes>
             <Route exact path="/" element = {<Home />}/>
 
-            <Route path="/characters" element = {<CharacterList />}/>
+            <Route path="/characters" element = {<Characters />}/>
 
             <Route path="/starships" element = {<Starships />}/>
 
-            <Route path="/planets" element = {<PlanetList />}/>
+            <Route path="/planets" element = {<Planets />}/>
 
-            <Route path="/vehicles" element = {<VehicleList />}/>
+            <Route path="/vehicles" element = {<Vehicles />}/>
 
           </Routes>
         </div>
