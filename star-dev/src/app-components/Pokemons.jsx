@@ -36,14 +36,16 @@ export default function Pokemons() {
         <Stack spacing={2} direction="row">
 
           <Button onClick={handlePrevious} variant="contained" style={{
-            backgroundColor: "#f1356d",
+            // backgroundColor: "#f1356d",
+            backgroundColor: "#48C2F9",
             padding: "10px 10px",
             marginTop: "10px",
 
           }}>Previous</Button>
 
           <Button onClick={handleNext} variant="contained" style={{
-            backgroundColor: "#f1356d",
+            // backgroundColor: "#f1356d",
+            backgroundColor: "#48C2F9",
             padding: "10px 10px",
             marginTop: "10px",
 

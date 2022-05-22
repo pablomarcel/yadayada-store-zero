@@ -21,7 +21,8 @@ const Home = () => {
                color: 'white',
                backgroundColor: '#f1356d',
                borderRadius: '8px',
-               padding: 8
+               padding: 8,
+               textDecoration: "none"
 
              }}
           >Pokémon API</a>

@@ -29,14 +29,26 @@ export default function PokemonList({pokemons}) {
 
       <Card elevation={1}>
 
-        <Link to={`/pokemons/${pokemon.url.split('/')[pokemon.url.split('/').length-2]}`} style={{
-          textDecoration:"none"
-        }}>
+        <CardContent>
+          <Typography variant='subtitle2' color="textSecondary">
 
-          <h2>{pokemon.name}</h2>
-          {/*<p>Model: {pokemon.model}</p>*/}
+            <Link to={`/pokemons/${pokemon.url.split('/')[pokemon.url.split('/').length-2]}`} style={{
+              textDecoration:"none"
+            }}>
 
-        </Link>
+              <h2>{pokemon.name}</h2>
+
+            </Link>
+
+          </Typography>
+
+
+
+
+        </CardContent>
+
+
+
 
       </Card>
 
