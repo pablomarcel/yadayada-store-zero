@@ -21,16 +21,6 @@ code {
   border-bottom: 1px solid #f2f2f2;
 }
 
-.swapi {
-  padding: 0;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  /*border-bottom: 1px solid #f2f2f2;*/
-}
-
-
 .navbar h1 {
   color: #f1356d;
 }
@@ -45,6 +35,68 @@ code {
 .navbar a:hover {
   color: #48C2F9;
 }
+
+/*.pagination {*/
+/*  padding: 20px;*/
+/*  display: inline;*/
+/*  align-items: center;*/
+/*  max-width: 600px;*/
+/*  margin: 0 auto;*/
+/*  border-bottom: 1px solid #f2f2f2;*/
+/*  alignment: left;*/
+
+/*}*/
+
+.pagination {
+
+  /*padding-left:20px;*/
+  /*margin: 0;*/
+  /*padding: 20px;*/
+
+
+
+}
+
+/*.pagination {*/
+/*  padding: 0;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  max-width: 600px;*/
+/*  margin: 0 auto;*/
+
+/*}*/
+
+.pagination h1 {
+  color: #f1356d;
+}
+.pagination .links {
+  margin-left: auto;
+  padding-left: 0;
+  text-decoration: none;
+}
+.pagination a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  /*margin: 6px;*/
+  /*padding-left: 0;*/
+
+}
+.pagination a:hover {
+  color: #48C2F9;
+}
+
+
+.swapi {
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  /*border-bottom: 1px solid #f2f2f2;*/
+}
+
+
 .content {
   max-width: 600px;
   margin: 40px auto;
@@ -70,10 +122,14 @@ code {
   font-size: 30px;
   color: #48C2F9;
   margin-bottom: 8px;
+  padding-left: 20px;
+  text-decoration: none;
 }
 
 .home p {
   font-size: 20px;
   color: #f1356d;
   margin-bottom: 8px;
+  padding-left: 20px;
+  text-decoration: none;
 }

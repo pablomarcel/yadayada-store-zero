@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="barebones app displaying a single character, starship, planet and vehicle">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starship.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starships.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to fetch a list of starships. need pagination">
+      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Pagination.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/StarshipList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/useFetch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/useFetch.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +58,7 @@
       <workItem from="1652680207141" duration="572000" />
       <workItem from="1652846723117" duration="4510000" />
       <workItem from="1652851464031" duration="606000" />
-      <workItem from="1653173572986" duration="8398000" />
+      <workItem from="1653173572986" duration="10692000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -78,7 +74,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653177082924</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="able to fetch a list of starships. need pagination">
+      <created>1653182342730</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653182342730</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +101,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="barebones app displaying a single character, starship, planet and vehicle" />
-    <option name="LAST_COMMIT_MESSAGE" value="barebones app displaying a single character, starship, planet and vehicle" />
+    <MESSAGE value="able to fetch a list of starships. need pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to fetch a list of starships. need pagination" />
   </component>
 </project>
