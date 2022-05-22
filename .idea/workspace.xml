@@ -4,112 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="fixed issue in relation to detail pages">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="pagination is working. need to handle fetch errors">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CharacterList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CharacterList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Characters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Characters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pagination.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Pagination.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PlanetList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Planets.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Planets.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Starships.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Starships.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/VehicleList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/VehicleList.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Vehicles.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Vehicles.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/Kenworth-Truck-Company-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/assets/star-dev-93.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +60,7 @@
       <workItem from="1652680207141" duration="572000" />
       <workItem from="1652846723117" duration="4510000" />
       <workItem from="1652851464031" duration="606000" />
-      <workItem from="1653173572986" duration="23579000" />
+      <workItem from="1653173572986" duration="24840000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -239,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653193384561</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="pagination is working. need to handle fetch errors">
+      <created>1653197550376</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1653197550376</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +175,7 @@
     <MESSAGE value="characters and starships working" />
     <MESSAGE value="planets and vehicles working" />
     <MESSAGE value="fixed issue in relation to detail pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue in relation to detail pages" />
+    <MESSAGE value="pagination is working. need to handle fetch errors" />
+    <option name="LAST_COMMIT_MESSAGE" value="pagination is working. need to handle fetch errors" />
   </component>
 </project>

@@ -54,7 +54,16 @@ export default function Starships() {
 
       <div className="home">
 
-        { starShips && <StarshipList starShips={starShips}/>}
+        { !error && starShips && <StarshipList starShips={starShips}/>}
+
+        <br/>
+
+        <div className="error-message">
+
+
+          {error && <div>{error}</div>}
+
+        </div>
 
       </div>
 

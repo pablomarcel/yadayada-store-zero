@@ -55,7 +55,16 @@ export default function Characters() {
 
       <div className="home">
 
-        { characters && <CharacterList characters={characters}/>}
+        { !error && characters && <CharacterList characters={characters}/>}
+
+        <br/>
+
+        <div className="error-message">
+
+
+          {error && <div>{error}</div>}
+
+        </div>
 
       </div>
 

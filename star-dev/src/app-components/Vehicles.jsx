@@ -56,7 +56,16 @@ export default function Vehicles() {
 
       <div className="home">
 
-        { vehicles && <VehicleList vehicles={vehicles}/>}
+        { !error && vehicles && <VehicleList vehicles={vehicles}/>}
+
+        <br/>
+
+        <div className="error-message">
+
+
+          {error && <div>{error}</div>}
+
+        </div>
 
       </div>
 

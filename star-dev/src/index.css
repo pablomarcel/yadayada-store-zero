@@ -160,3 +160,10 @@ code {
 .pagination-buttons {
   padding: 0 20px;
 }
+
+.error-message {
+  padding: 20px;
+  color: red;
+  font-weight: bold;
+  font-size: 30px;
+}

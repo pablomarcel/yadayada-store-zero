@@ -55,7 +55,16 @@ export default function Planets() {
 
       <div className="home">
 
-        { planets && <PlanetList planets={planets}/>}
+        { !error && planets && <PlanetList planets={planets}/>}
+
+        <br/>
+
+        <div className="error-message">
+
+
+          {error && <div>{error}</div>}
+
+        </div>
 
       </div>
 
