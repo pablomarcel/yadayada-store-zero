@@ -27,7 +27,7 @@ export default function PokemonList({pokemons}) {
 
       <br/>
 
-      <Card elevation={1}>
+      <Card elevation={2}>
 
         <CardContent>
           <Typography variant='subtitle2' color="textSecondary">
@@ -42,17 +42,9 @@ export default function PokemonList({pokemons}) {
 
           </Typography>
 
-
-
-
         </CardContent>
 
-
-
-
       </Card>
-
-
 
     </div>
 
@@ -62,29 +54,14 @@ export default function PokemonList({pokemons}) {
 
     <Container>
       <Masonry
-
         breakpointCols={breakpoints}
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
-
       >
-
         {pokemonList}
-
-        {/*<div>*/}
-
-        {/*  {pokemonList}*/}
-
-        {/*</div>*/}
-
       </Masonry>
 
-
     </Container>
-
-
-
-
 
   )
 
