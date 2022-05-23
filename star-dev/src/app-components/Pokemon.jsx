@@ -1,6 +1,7 @@
+import React from 'react'
 import { useParams} from "react-router-dom";
 import useFetch from "./useFetch"
-import {CardMedia, Container} from '@mui/material';
+import {CardMedia} from '@mui/material';
 import {Card} from "@mui/material";
 import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
@@ -9,7 +10,7 @@ export default function Pokemon(){
 
   const {id} = useParams()
 
-  const { data: pokemon, error, isPending} = useFetch('https://pokeapi.co/api/v2/pokemon/'+id)
+  const { data: pokemon, error} = useFetch('https://pokeapi.co/api/v2/pokemon/'+id)
 
   return(
 

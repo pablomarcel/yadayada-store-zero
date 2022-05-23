@@ -10,7 +10,7 @@ export default function Berrys() {
   const [offset, setOffset] = useState("0")
   const limit = "20"
 
-  const {error, isPending, data: berrys} = useFetch(`https://pokeapi.co/api/v2/berry/?offset=${offset}&limit=${limit}`)
+  const {error, data: berrys} = useFetch(`https://pokeapi.co/api/v2/berry/?offset=${offset}&limit=${limit}`)
 
   return(
 

@@ -10,7 +10,7 @@ export default function Items() {
   const [offset, setOffset] = useState("0")
   const limit = "20"
 
-  const {error, isPending, data: items} = useFetch(`https://pokeapi.co/api/v2/item/?offset=${offset}&limit=${limit}`)
+  const {error, data: items} = useFetch(`https://pokeapi.co/api/v2/item/?offset=${offset}&limit=${limit}`)
 
   return(
 

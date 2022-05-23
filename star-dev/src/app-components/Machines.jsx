@@ -9,7 +9,7 @@ export default function Machines() {
 
   const [offset, setOffset] = useState("0")
   const limit = "20"
-  const {error, isPending, data: machines} = useFetch(`https://pokeapi.co/api/v2/machine/?offset=${offset}&limit=${limit}`)
+  const {error, data: machines} = useFetch(`https://pokeapi.co/api/v2/machine/?offset=${offset}&limit=${limit}`)
 
   return(
 

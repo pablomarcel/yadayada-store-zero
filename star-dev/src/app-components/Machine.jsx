@@ -1,3 +1,4 @@
+import React from 'react'
 import { useParams} from "react-router-dom";
 import useFetch from "./useFetch"
 import {Card} from "@mui/material";
@@ -9,7 +10,7 @@ export default function Machine(){
 
   const {id} = useParams()
 
-  const { data: machine, error, isPending} = useFetch('https://pokeapi.co/api/v2/machine/'+id)
+  const { data: machine, error} = useFetch('https://pokeapi.co/api/v2/machine/'+id)
 
   return(
 

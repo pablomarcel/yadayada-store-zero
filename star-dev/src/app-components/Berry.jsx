@@ -1,3 +1,4 @@
+import React from 'react'
 import { useParams} from "react-router-dom";
 import useFetch from "./useFetch"
 import {Card} from "@mui/material";
@@ -8,13 +9,13 @@ export default function Berry(){
 
   const {id} = useParams()
 
-  const { data: berry, error, isPending} = useFetch('https://pokeapi.co/api/v2/berry/'+id)
+  const { data: berry, error} = useFetch('https://pokeapi.co/api/v2/berry/'+id)
 
   return(
 
     <div className="home">
 
-      {berry && (
+      {!error && berry && (
         <div>
 
           <Card elevation={2}>

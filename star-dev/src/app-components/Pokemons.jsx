@@ -10,7 +10,7 @@ export default function Pokemons() {
   const [offset, setOffset] = useState("0")
   const limit = "20"
 
-  const {error, isPending, data: pokemons} = useFetch(`https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`)
+  const {error, data: pokemons} = useFetch(`https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`)
 
   return(
 
