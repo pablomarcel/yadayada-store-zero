@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Berry.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Berry.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Berrys.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Berrys.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Items.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Machine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Machine.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Machines.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Machines.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/NotFound.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/NotFound.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pokemon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Pokemon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pokemons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Pokemons.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/logo.svg" beforeDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, added linting">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +59,7 @@
       <workItem from="1653199482069" duration="396000" />
       <workItem from="1653233060024" duration="14498000" />
       <workItem from="1653256444117" duration="5194000" />
-      <workItem from="1653346760871" duration="2042000" />
+      <workItem from="1653346760871" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -252,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653260573671</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Final Commit, added linting">
+      <created>1653349039182</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1653349039182</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +284,7 @@
     <MESSAGE value="items working" />
     <MESSAGE value="Machines is working" />
     <MESSAGE value="Final Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit" />
+    <MESSAGE value="Final Commit, added linting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, added linting" />
   </component>
 </project>
