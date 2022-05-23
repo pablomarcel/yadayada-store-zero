@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, added linting">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-    </list>
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, removed README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +57,7 @@
       <workItem from="1653199482069" duration="396000" />
       <workItem from="1653233060024" duration="14498000" />
       <workItem from="1653256444117" duration="5194000" />
-      <workItem from="1653346760871" duration="2393000" />
+      <workItem from="1653346760871" duration="2726000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -243,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653349039182</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Final Commit, removed README.md">
+      <created>1653349197799</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1653349197799</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,6 +290,7 @@
     <MESSAGE value="Machines is working" />
     <MESSAGE value="Final Commit" />
     <MESSAGE value="Final Commit, added linting" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, added linting" />
+    <MESSAGE value="Final Commit, removed README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, removed README.md" />
   </component>
 </project>
