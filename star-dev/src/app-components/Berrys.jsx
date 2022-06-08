@@ -26,7 +26,8 @@ export default function Berrys() {
             setOffset(String(previousPage))
           }} variant="contained" style={{
             // backgroundColor: "#f1356d",
-            backgroundColor: "#48C2F9",
+            // backgroundColor: "#48C2F9",
+            backgroundColor: "#D500F9",
             padding: "10px 10px",
             marginTop: "10px",
 
@@ -38,7 +39,8 @@ export default function Berrys() {
             setOffset(String(nextPage))
           }} variant="contained" style={{
             // backgroundColor: "#f1356d",
-            backgroundColor: "#48C2F9",
+            // backgroundColor: "#48C2F9",
+            backgroundColor: "#D500F9",
             padding: "10px 10px",
             marginTop: "10px",
 

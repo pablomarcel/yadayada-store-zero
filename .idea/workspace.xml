@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="refactored, added color palette">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="refactored, added deep purple color swatch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Bags.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Bags.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Berrys.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Berrys.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Cameras.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Cameras.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Headphones.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Headphones.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +66,7 @@
       <workItem from="1653256444117" duration="5194000" />
       <workItem from="1653346760871" duration="3050000" />
       <workItem from="1654491113207" duration="307000" />
-      <workItem from="1654642404980" duration="9029000" />
+      <workItem from="1654642404980" duration="10035000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -275,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654652571495</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="refactored, added deep purple color swatch">
+      <created>1654654613612</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1654654613612</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +303,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to display list of items for characters, starships, planets and vehicles. need detail views" />
     <MESSAGE value="added NotFound Page" />
     <MESSAGE value="able to click on a starship and display details" />
     <MESSAGE value="able to display details for any starship" />
@@ -318,6 +327,7 @@
     <MESSAGE value="Final commit" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactored, added color palette" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactored, added color palette" />
+    <MESSAGE value="refactored, added deep purple color swatch" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored, added deep purple color swatch" />
   </component>
 </project>

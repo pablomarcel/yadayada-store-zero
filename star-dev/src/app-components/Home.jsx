@@ -16,7 +16,7 @@ const Home = () => {
           <Typography variant='subtitle2' color="textSecondary">
 
             <h2>Welcome Shoppers!</h2>
-            <p>Launching Q4 2022, I promise</p>
+            <p>Launching in Q4 2022, I promise</p>
             <p>Credit Card Gateway courtesy of Stripe</p>
             <br/>
             <div className="swapi">
