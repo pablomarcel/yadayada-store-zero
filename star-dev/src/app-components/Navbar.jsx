@@ -3,9 +3,11 @@ import React from 'react'
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div>
-        <img src="https://fontmeme.com/permalink/220608/974e832392ca53a94294cc0f0b79a703.png" alt="Yada Yada"/>
-        <br />
+      <div className="navbar-container">
+
+        <center><img src="https://fontmeme.com/permalink/220608/974e832392ca53a94294cc0f0b79a703.png" alt="Yada Yada"/></center>
+
+        <br/>
         <br />
         <div className="links">
           <a href="/"
@@ -49,7 +51,15 @@ const Navbar = () => {
              }}
           >Berries</a>
 
-
+          <a href="/dummys"
+             style={{
+               color: 'white',
+               // backgroundColor: '#48C2F9',
+               // backgroundColor: '#fccf00',
+               backgroundColor: '#00BFA5',
+               borderRadius: '8px'
+             }}
+          >Dummys</a>
 
         </div>
 
