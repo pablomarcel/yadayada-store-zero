@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final commit" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Bag.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/BagList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Bags.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Machine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Headphone.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/MachineList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Machines.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Headphones.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pokemon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Camera.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PokemonList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CameraList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pokemons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Cameras.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pablo/week5-assignment&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pablo/react-projects/yadayada-store-zero/yadayada-store&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -58,6 +74,8 @@
       <workItem from="1653233060024" duration="14498000" />
       <workItem from="1653256444117" duration="5194000" />
       <workItem from="1653346760871" duration="3050000" />
+      <workItem from="1654491113207" duration="307000" />
+      <workItem from="1654642404980" duration="7089000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -255,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653349806838</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="initial commit">
+      <created>1654491382960</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1654491382960</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,7 +298,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to fetch a list of starships. need pagination" />
     <MESSAGE value="updated css, added pagination buttons" />
     <MESSAGE value="able to display list of items for characters, starships, planets and vehicles. need detail views" />
     <MESSAGE value="added NotFound Page" />
@@ -298,6 +322,7 @@
     <MESSAGE value="Final Commit, removed README.md" />
     <MESSAGE value="Final Commit, added README.md back in" />
     <MESSAGE value="Final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final commit" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>

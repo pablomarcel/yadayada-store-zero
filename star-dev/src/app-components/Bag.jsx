@@ -6,7 +6,7 @@ import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
 
 
-export default function Item(){
+export default function Bag(){
 
   const {id} = useParams()
 

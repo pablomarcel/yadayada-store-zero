@@ -7,8 +7,7 @@ import {Card} from "@mui/material";
 import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
 
-
-export default function ItemList({items}) {
+export default function CameraList({pokemons}) {
 
   const breakpoints = {
     default: 3,
@@ -16,9 +15,9 @@ export default function ItemList({items}) {
     700: 1
   }
 
-  const itemList = items.results.map((item)=>(
+  const pokemonList = pokemons.results.map((pokemon)=>(
 
-    <div key={item.id}>
+    <div key={pokemon.url}>
 
       <br/>
 
@@ -27,11 +26,11 @@ export default function ItemList({items}) {
         <CardContent>
           <Typography variant='subtitle2' color="textSecondary">
 
-            <Link to={`/items/${item.url.split('/')[item.url.split('/').length-2]}`} style={{
+            <Link to={`/cameras/${pokemon.url.split('/')[pokemon.url.split('/').length-2]}`} style={{
               textDecoration:"none"
             }}>
 
-              <h2>{item.name}</h2>
+              <h2>{pokemon.name}</h2>
 
             </Link>
 
@@ -53,7 +52,7 @@ export default function ItemList({items}) {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
-        {itemList}
+        {pokemonList}
       </Masonry>
 
     </Container>
@@ -62,6 +61,6 @@ export default function ItemList({items}) {
 
 }
 
-ItemList.propTypes = {
-  items: PropTypes.arrayOf(PropTypes.object).isRequired
+CameraList.propTypes = {
+  pokemons: PropTypes.arrayOf(PropTypes.object).isRequired
 }

@@ -3,13 +3,14 @@ import useFetch from "./useFetch";
 import {useState} from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import MachineList from "./MachineList";
+import BagList from "./BagList";
 
-export default function Machines() {
+export default function Bags() {
 
   const [offset, setOffset] = useState("0")
   const limit = "20"
-  const {error, data: machines} = useFetch(`https://pokeapi.co/api/v2/machine/?offset=${offset}&limit=${limit}`)
+
+  const {error, data: items} = useFetch(`https://pokeapi.co/api/v2/item/?offset=${offset}&limit=${limit}`)
 
   return(
 
@@ -49,7 +50,7 @@ export default function Machines() {
 
       <div className="home">
 
-        { !error && machines && <MachineList machines={machines}/>}
+        { !error && items && <BagList items={items}/>}
 
         <br/>
 

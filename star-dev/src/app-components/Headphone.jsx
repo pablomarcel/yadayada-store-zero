@@ -6,7 +6,7 @@ import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
 
 
-export default function Machine(){
+export default function Headphone(){
 
   const {id} = useParams()
 

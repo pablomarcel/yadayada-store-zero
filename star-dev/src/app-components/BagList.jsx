@@ -7,7 +7,8 @@ import {Card} from "@mui/material";
 import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
 
-export default function PokemonList({pokemons}) {
+
+export default function BagList({items}) {
 
   const breakpoints = {
     default: 3,
@@ -15,9 +16,9 @@ export default function PokemonList({pokemons}) {
     700: 1
   }
 
-  const pokemonList = pokemons.results.map((pokemon)=>(
+  const itemList = items.results.map((item)=>(
 
-    <div key={pokemon.url}>
+    <div key={item.id}>
 
       <br/>
 
@@ -26,11 +27,11 @@ export default function PokemonList({pokemons}) {
         <CardContent>
           <Typography variant='subtitle2' color="textSecondary">
 
-            <Link to={`/pokemons/${pokemon.url.split('/')[pokemon.url.split('/').length-2]}`} style={{
+            <Link to={`/bags/${item.url.split('/')[item.url.split('/').length-2]}`} style={{
               textDecoration:"none"
             }}>
 
-              <h2>{pokemon.name}</h2>
+              <h2>{item.name}</h2>
 
             </Link>
 
@@ -52,7 +53,7 @@ export default function PokemonList({pokemons}) {
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
-        {pokemonList}
+        {itemList}
       </Masonry>
 
     </Container>
@@ -61,6 +62,6 @@ export default function PokemonList({pokemons}) {
 
 }
 
-PokemonList.propTypes = {
-  pokemons: PropTypes.arrayOf(PropTypes.object).isRequired
+BagList.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.object).isRequired
 }

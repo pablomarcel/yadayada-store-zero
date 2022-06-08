@@ -1,16 +1,15 @@
 import React from 'react';
-import PokemonList from './PokemonList'
 import useFetch from "./useFetch";
 import {useState} from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
+import HeadphoneList from "./HeadphoneList";
 
-export default function Pokemons() {
+export default function Headphones() {
 
   const [offset, setOffset] = useState("0")
   const limit = "20"
-
-  const {error, data: pokemons} = useFetch(`https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`)
+  const {error, data: machines} = useFetch(`https://pokeapi.co/api/v2/machine/?offset=${offset}&limit=${limit}`)
 
   return(
 
@@ -50,7 +49,7 @@ export default function Pokemons() {
 
       <div className="home">
 
-        { !error && pokemons && <PokemonList pokemons={pokemons}/>}
+        { !error && machines && <HeadphoneList machines={machines}/>}
 
         <br/>
 

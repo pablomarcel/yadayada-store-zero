@@ -1,16 +1,16 @@
 import React from 'react';
+import CameraList from './CameraList'
 import useFetch from "./useFetch";
 import {useState} from 'react'
 import Button from '@mui/material/Button';
 import Stack from '@mui/material/Stack';
-import ItemList from "./ItemList";
 
-export default function Items() {
+export default function Cameras() {
 
   const [offset, setOffset] = useState("0")
   const limit = "20"
 
-  const {error, data: items} = useFetch(`https://pokeapi.co/api/v2/item/?offset=${offset}&limit=${limit}`)
+  const {error, data: pokemons} = useFetch(`https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`)
 
   return(
 
@@ -50,7 +50,7 @@ export default function Items() {
 
       <div className="home">
 
-        { !error && items && <ItemList items={items}/>}
+        { !error && pokemons && <CameraList pokemons={pokemons}/>}
 
         <br/>
 

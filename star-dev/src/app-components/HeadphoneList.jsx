@@ -7,7 +7,7 @@ import {Card} from "@mui/material";
 import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
 
-export default function MachineList({machines}) {
+export default function HeadphoneList({machines}) {
 
   const breakpoints = {
     default: 3,
@@ -26,7 +26,7 @@ export default function MachineList({machines}) {
         <CardContent>
           <Typography variant='subtitle2' color="textSecondary">
 
-            <Link to={`/machines/${machine.url.split('/')[machine.url.split('/').length-2]}`} style={{
+            <Link to={`/headphones/${machine.url.split('/')[machine.url.split('/').length-2]}`} style={{
               textDecoration:"none"
             }}>
 
@@ -61,6 +61,6 @@ export default function MachineList({machines}) {
 
 }
 
-MachineList.propTypes = {
+HeadphoneList.propTypes = {
   machines: PropTypes.arrayOf(PropTypes.object).isRequired
 }

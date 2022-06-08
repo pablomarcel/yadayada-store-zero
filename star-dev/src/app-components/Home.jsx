@@ -5,16 +5,36 @@ const Home = () => {
   return (
 
     <div className="home">
-      <h2>Welcome to Poké Dev</h2>
-      <p>This app explores content from Pokémon Universe</p>
-      <p>Click on a link above to start</p>
-      <p>Data Source courtesy of The Pokémon API:</p>
+      <h2>Welcome Shoppers!</h2>
+      <p>Launching Q4 2022, I promise</p>
+      <p>Credit Card Gateway courtesy of Stripe</p>
+      <br/>
+      <div className="swapi">
+
+        <div className="links">
+          <a href="https://www.pexels.com/"
+             style={{
+               color: 'white',
+               backgroundColor: '#386abb',
+               borderRadius: '8px',
+               padding: 8,
+               textDecoration: "none"
+
+             }}
+          >Stripe</a>
+
+        </div>
+
+      </div>
+
+
+      <p>Images courtesy of Pexels</p>
       <br/>
 
       <div className="swapi">
 
         <div className="links">
-          <a href="https://pokeapi.co/"
+          <a href="https://www.pexels.com/"
              style={{
                color: 'white',
                backgroundColor: '#f1356d',
@@ -23,11 +43,19 @@ const Home = () => {
                textDecoration: "none"
 
              }}
-          >Pokémon API</a>
+          >Pexels</a>
 
         </div>
 
       </div>
+      {/*<div id="swapi-dummy">*/}
+      {/*  <br/>*/}
+      {/*</div>*/}
+
+      <div id="swapi-dummy">
+        <br/>
+      </div>
+
 
     </div>
 

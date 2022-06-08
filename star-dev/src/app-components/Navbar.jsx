@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div>
-        <img src="https://fontmeme.com/permalink/220522/0bafee88ce1e973f69ae759e2b3b927b.png" alt="star-dev"/>
+        <img src="https://fontmeme.com/permalink/220608/974e832392ca53a94294cc0f0b79a703.png" alt="Yada Yada"/>
         <br />
         <br />
         <div className="links">
@@ -16,7 +16,7 @@ const Navbar = () => {
                borderRadius: '8px'
              }}
           >Home</a>
-          <a href="/pokemons"
+          <a href="/cameras"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
@@ -24,21 +24,21 @@ const Navbar = () => {
                backgroundColor: '#f1356d',
                borderRadius: '8px'
              }}
-          >Pokemons</a>
-          <a href="/items" style={{
+          >Cameras</a>
+          <a href="/bags" style={{
             color: 'white',
             // backgroundColor: '#48C2F9',
             backgroundColor: '#44af35',
             borderRadius: '8px'
-          }}>Items</a>
-          <a href="/machines"
+          }}>Bags</a>
+          <a href="/headphones"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
                backgroundColor: '#fccf00',
                borderRadius: '8px'
              }}
-          >Machines</a>
+          >Headphones</a>
           <a href="/berries"
              style={{
                color: 'white',
