@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="updated button colors">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/.firebaserc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/firebase.json" beforeDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="first attempt at continuous deployment">
+      <change beforePath="$PROJECT_DIR$/star-dev/.firebaserc" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/.firebaserc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/firebase.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/firebase.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,7 @@
       <workItem from="1653256444117" duration="5194000" />
       <workItem from="1653346760871" duration="3050000" />
       <workItem from="1654491113207" duration="307000" />
-      <workItem from="1654642404980" duration="12705000" />
+      <workItem from="1654642404980" duration="13053000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654655366101</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="first attempt at continuous deployment">
+      <created>1654658180125</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1654658180125</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +313,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to click on a starship and display details" />
     <MESSAGE value="able to display details for any starship" />
     <MESSAGE value="characters and starships working" />
     <MESSAGE value="planets and vehicles working" />
@@ -333,6 +337,7 @@
     <MESSAGE value="refactored, added color palette" />
     <MESSAGE value="refactored, added deep purple color swatch" />
     <MESSAGE value="updated button colors" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated button colors" />
+    <MESSAGE value="first attempt at continuous deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="first attempt at continuous deployment" />
   </component>
 </project>
