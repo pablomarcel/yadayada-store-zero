@@ -21,7 +21,7 @@ export default function CameraList({pokemons}) {
 
       <br/>
 
-      <Card elevation={2}>
+      <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>
 
         <CardContent>
           <Typography variant='subtitle2' color="textSecondary">

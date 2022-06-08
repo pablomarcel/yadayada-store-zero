@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="initial commit">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="refactored, added color palette">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Bag.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ItemList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/BagList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Items.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Bags.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Machine.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Headphone.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/MachineList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Machines.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Headphones.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pokemon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Camera.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PokemonList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CameraList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Pokemons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Cameras.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +63,7 @@
       <workItem from="1653256444117" duration="5194000" />
       <workItem from="1653346760871" duration="3050000" />
       <workItem from="1654491113207" duration="307000" />
-      <workItem from="1654642404980" duration="7089000" />
+      <workItem from="1654642404980" duration="9029000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -280,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654491382960</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="refactored, added color palette">
+      <created>1654652571495</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1654652571495</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,7 +293,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated css, added pagination buttons" />
     <MESSAGE value="able to display list of items for characters, starships, planets and vehicles. need detail views" />
     <MESSAGE value="added NotFound Page" />
     <MESSAGE value="able to click on a starship and display details" />
@@ -323,6 +317,7 @@
     <MESSAGE value="Final Commit, added README.md back in" />
     <MESSAGE value="Final commit" />
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="refactored, added color palette" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactored, added color palette" />
   </component>
 </project>
