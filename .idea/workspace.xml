@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to use the masonry component for products">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to display the products in a masonry pattern">
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +65,7 @@
       <workItem from="1654642404980" duration="16339000" />
       <workItem from="1654662726956" duration="6166000" />
       <workItem from="1654669389399" duration="1114000" />
-      <workItem from="1654750800752" duration="5091000" />
+      <workItem from="1654750800752" duration="5494000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -333,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654755628471</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="able to display the products in a masonry pattern">
+      <created>1654756010410</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1654756010410</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +358,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pagination is working. need to handle fetch errors" />
     <MESSAGE value="able to handle errors in pagination" />
     <MESSAGE value="cleaned up. prop-types pending" />
     <MESSAGE value="new project using the pokemon API. refactored code, able to fetch list of pokemons, and able to paginate" />
@@ -376,6 +382,7 @@
     <MESSAGE value="cleaned up, no new functionality" />
     <MESSAGE value="able to fetch data from the firestore database and display it in the browser" />
     <MESSAGE value="able to use the masonry component for products" />
-    <option name="LAST_COMMIT_MESSAGE" value="able to use the masonry component for products" />
+    <MESSAGE value="able to display the products in a masonry pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to display the products in a masonry pattern" />
   </component>
 </project>
