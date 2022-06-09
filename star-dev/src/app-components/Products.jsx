@@ -48,6 +48,35 @@ export default function Products(){
     return <p>Loading...</p>
   }
 
+
+  const productList = products.map(product => {
+    return (
+      <div key={product.id}>
+
+        <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>
+
+          <CardContent>
+            <Typography variant='subtitle2' color="textSecondary">
+
+              <Link to={`/products/${product.id}`} style={{
+                textDecoration:"none"
+              }}>
+
+                <h2>{product.data().name}</h2>
+
+              </Link>
+
+            </Typography>
+
+          </CardContent>
+
+        </Card>
+
+      </div>
+    );
+  })
+
+
   return (
 
     <Container>
@@ -56,36 +85,37 @@ export default function Products(){
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >
+        {productList}
 
-        <div>
+        {/*<div>*/}
 
-          {products.map(product => {
-            return (
-              <div key={product.id}>
+          {/*{products.map(product => {*/}
+          {/*  return (*/}
+          {/*    <div key={product.id}>*/}
 
-                <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>
+          {/*      <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>*/}
 
-                  <CardContent>
-                    <Typography variant='subtitle2' color="textSecondary">
+          {/*        <CardContent>*/}
+          {/*          <Typography variant='subtitle2' color="textSecondary">*/}
 
-                      <Link to={`/products/${product.id}`} style={{
-                        textDecoration:"none"
-                      }}>
+          {/*            <Link to={`/products/${product.id}`} style={{*/}
+          {/*              textDecoration:"none"*/}
+          {/*            }}>*/}
 
-                        <h2>{product.data().name}</h2>
+          {/*              <h2>{product.data().name}</h2>*/}
 
-                      </Link>
+          {/*            </Link>*/}
 
-                    </Typography>
+          {/*          </Typography>*/}
 
-                  </CardContent>
+          {/*        </CardContent>*/}
 
-                </Card>
+          {/*      </Card>*/}
 
-              </div>
-            );
-          })}
-        </div>
+          {/*    </div>*/}
+          {/*  );*/}
+          {/*})}*/}
+        {/*</div>*/}
 
       </Masonry>
 
