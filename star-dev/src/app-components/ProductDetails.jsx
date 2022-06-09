@@ -2,12 +2,10 @@ import React, {useEffect, useState} from 'react'
 import {doc, getDoc} from 'firebase/firestore'
 import { useParams} from "react-router-dom";
 import db from "../db";
-
-// import useFetch from "./useFetch"
-// import {CardMedia} from '@mui/material';
-// import {Card} from "@mui/material";
-// import {CardContent} from "@mui/material";
-// import {Typography} from "@mui/material";
+import {CardMedia} from '@mui/material';
+import {Card} from "@mui/material";
+import {CardContent} from "@mui/material";
+import {Typography} from "@mui/material";
 
 export default function ProductDetails(){
 
@@ -15,8 +13,6 @@ export default function ProductDetails(){
   const [product, setProduct] = useState({})
   const [loading, setLoading] = useState(true)
   const[ error, setError]= useState(false)
-
-  // const { data: pokemon, error} = useFetch('https://pokeapi.co/api/v2/pokemon/'+id)
 
   useEffect(()=>{
     const productRef = doc(db, 'electronics', id)
@@ -40,9 +36,44 @@ export default function ProductDetails(){
 
 
   return(
-    <div>
-      <h1>Product {id}</h1>
-      {product.name}
+    <div className="home">
+
+      {!error && product && (
+        <div>
+
+          <Card elevation={2}>
+            <CardMedia
+              component="img"
+              height="600"
+              image={product.image}
+              alt="product"
+            />
+            <CardContent>
+
+              <Typography gutterBottom variant = "h5" component="div">
+
+                {product.name}
+
+              </Typography>
+
+              <Typography variant="body2" color="text.secondary">
+
+                {product.description}
+
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+
+                Price: ${product.price}
+
+              </Typography>
+
+            </CardContent>
+
+          </Card>
+
+        </div>
+      )}
+
     </div>
   )
 
