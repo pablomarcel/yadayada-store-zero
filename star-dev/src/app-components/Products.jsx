@@ -4,11 +4,19 @@ import {collection, onSnapshot, query} from 'firebase/firestore'
 import db from '../db'
 import {Link} from 'react-router-dom'
 import {Card, CardContent, Typography} from "@mui/material";
+import {Container} from '@mui/material';
+import Masonry from 'react-masonry-css'
 
 export default function Products(){
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
+
+  const breakpoints = {
+    default: 3,
+    1100: 2,
+    700: 1
+  }
 
   useEffect(()=>{
 
@@ -41,43 +49,48 @@ export default function Products(){
   }
 
   return (
-    <div>
-      <h1>Products</h1>
 
-      {products.map(product => {
-        return (
-          <div key={product.id}>
+    <Container>
+      <Masonry
+        breakpointCols={breakpoints}
+        className="my-masonry-grid"
+        columnClassName="my-masonry-grid_column"
+      >
 
-            <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>
+        <div>
 
-              <CardContent>
-                <Typography variant='subtitle2' color="textSecondary">
+          {products.map(product => {
+            return (
+              <div key={product.id}>
 
-                  <Link to={`/products/${product.id}`} style={{
-                    textDecoration:"none"
-                  }}>
+                <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>
 
-                    <h2>{product.data().name}</h2>
+                  <CardContent>
+                    <Typography variant='subtitle2' color="textSecondary">
 
-                  </Link>
+                      <Link to={`/products/${product.id}`} style={{
+                        textDecoration:"none"
+                      }}>
 
-                </Typography>
+                        <h2>{product.data().name}</h2>
 
-              </CardContent>
+                      </Link>
 
-            </Card>
+                    </Typography>
 
-            {/*<p>{product.data().name}</p>*/}
-            {/*<span>*/}
-            {/*  <Link to={`/products/${product.id}`}>View</Link>*/}
-            {/*</span>*/}
-            {/*<hr />*/}
+                  </CardContent>
 
+                </Card>
 
-          </div>
-        );
-      })}
-    </div>
+              </div>
+            );
+          })}
+        </div>
+
+      </Masonry>
+
+    </Container>
+
   )
 
 }

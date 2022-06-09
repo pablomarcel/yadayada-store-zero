@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="cleaned up, no new functionality">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to fetch data from the firestore database and display it in the browser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
       <workItem from="1654642404980" duration="16339000" />
       <workItem from="1654662726956" duration="6166000" />
       <workItem from="1654669389399" duration="1114000" />
-      <workItem from="1654750800752" duration="4059000" />
+      <workItem from="1654750800752" duration="4766000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -323,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654751465964</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="able to fetch data from the firestore database and display it in the browser">
+      <created>1654754920298</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1654754920298</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,7 +345,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="planets and vehicles working" />
     <MESSAGE value="fixed issue in relation to detail pages" />
     <MESSAGE value="pagination is working. need to handle fetch errors" />
     <MESSAGE value="able to handle errors in pagination" />
@@ -366,6 +369,7 @@
     <MESSAGE value="first attempt at continuous deployment" />
     <MESSAGE value="added A Dummy component to test the firestore database" />
     <MESSAGE value="cleaned up, no new functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up, no new functionality" />
+    <MESSAGE value="able to fetch data from the firestore database and display it in the browser" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to fetch data from the firestore database and display it in the browser" />
   </component>
 </project>
