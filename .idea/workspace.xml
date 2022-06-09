@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="first attempt at continuous deployment">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Dummy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/DummyList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Dummys.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added A Dummy component to test the firestore database">
+      <change afterPath="$PROJECT_DIR$/star-dev/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-dev/src/db.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Dummy.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/DummyList.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Dummys.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2021.3\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -67,7 +73,10 @@
       <workItem from="1653256444117" duration="5194000" />
       <workItem from="1653346760871" duration="3050000" />
       <workItem from="1654491113207" duration="307000" />
-      <workItem from="1654642404980" duration="15362000" />
+      <workItem from="1654642404980" duration="16339000" />
+      <workItem from="1654662726956" duration="6166000" />
+      <workItem from="1654669389399" duration="1114000" />
+      <workItem from="1654750800752" duration="631000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -307,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654658510460</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added A Dummy component to test the firestore database">
+      <created>1654661071954</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1654661071954</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to display details for any starship" />
     <MESSAGE value="characters and starships working" />
     <MESSAGE value="planets and vehicles working" />
     <MESSAGE value="fixed issue in relation to detail pages" />
@@ -350,6 +365,7 @@
     <MESSAGE value="refactored, added deep purple color swatch" />
     <MESSAGE value="updated button colors" />
     <MESSAGE value="first attempt at continuous deployment" />
-    <option name="LAST_COMMIT_MESSAGE" value="first attempt at continuous deployment" />
+    <MESSAGE value="added A Dummy component to test the firestore database" />
+    <option name="LAST_COMMIT_MESSAGE" value="added A Dummy component to test the firestore database" />
   </component>
 </project>

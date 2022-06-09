@@ -11,8 +11,6 @@ import NotFound from "./app-components/NotFound";
 import Bag from "./app-components/Bag";
 import Berry from "./app-components/Berry";
 import Camera from "./app-components/Camera";
-import Dummy from "./app-components/Dummy";
-import Dummys from "./app-components/Dummys";
 
 function App() {
   return (
@@ -30,10 +28,7 @@ function App() {
             <Route path="/berries/:id" element = {<Berry />}/>
             <Route path="/cameras" element = {<Cameras />}/>
             <Route path="/cameras/:id" element = {<Camera />}/>
-            <Route path="/dummys" element = {<Dummys />}/>
-            <Route path="/dummys/:id" element = {<Dummy />}/>
             <Route path="*" element = {<NotFound />}/>
-
           </Routes>
         </div>
       </div>
