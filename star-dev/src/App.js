@@ -11,6 +11,7 @@ import NotFound from "./app-components/NotFound";
 import Bag from "./app-components/Bag";
 import Berry from "./app-components/Berry";
 import Camera from "./app-components/Camera";
+import Products from "./app-components/Products";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
             <Route path="/berries/:id" element = {<Berry />}/>
             <Route path="/cameras" element = {<Cameras />}/>
             <Route path="/cameras/:id" element = {<Camera />}/>
+            <Route path="/products" element = {<Products />}/>
+            <Route path="/products/:id" element = {<Products />}/>
             <Route path="*" element = {<NotFound />}/>
           </Routes>
         </div>

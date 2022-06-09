@@ -51,6 +51,16 @@ const Navbar = () => {
              }}
           >Berries</a>
 
+          <a href="/products"
+             style={{
+               color: 'white',
+               // backgroundColor: '#48C2F9',
+               // backgroundColor: '#fccf00',
+               backgroundColor: '#76FF03',
+               borderRadius: '8px'
+             }}
+          >Products</a>
+
         </div>
 
       </div>
