@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="switch to Teal Color Palette">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Camera.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CameraList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Cameras.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="UI updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +64,7 @@
       <workItem from="1654662726956" duration="6166000" />
       <workItem from="1654669389399" duration="1114000" />
       <workItem from="1654750800752" duration="7703000" />
-      <workItem from="1654819335878" duration="3811000" />
+      <workItem from="1654819335878" duration="4020000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -376,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654821577358</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="UI updates">
+      <created>1654823201536</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1654823201536</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +392,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to add Material-UI Styles" />
     <MESSAGE value="Material UI Tweaks" />
     <MESSAGE value="pokemon detail working" />
     <MESSAGE value="pokemons and berries are working" />
@@ -419,6 +416,7 @@
     <MESSAGE value="able to display product details. need to materialize component" />
     <MESSAGE value="added MUI styles to ProductDetails.jsx" />
     <MESSAGE value="switch to Teal Color Palette" />
-    <option name="LAST_COMMIT_MESSAGE" value="switch to Teal Color Palette" />
+    <MESSAGE value="UI updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="UI updates" />
   </component>
 </project>
