@@ -5,12 +5,10 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Headphones from "./app-components/Headphones";
 import Bags from "./app-components/Bags";
 import Berrys from "./app-components/Berrys";
-import Cameras from "./app-components/Cameras";
 import Headphone from "./app-components/Headphone";
 import NotFound from "./app-components/NotFound";
 import Bag from "./app-components/Bag";
 import Berry from "./app-components/Berry";
-import Camera from "./app-components/Camera";
 import Products from "./app-components/Products";
 import ProductDetails from "./app-components/ProductDetails"
 
@@ -22,16 +20,14 @@ function App() {
         <div className="content">
           <Routes>
             <Route exact path="/" element = {<Home />}/>
-            <Route path="/bags" element = {<Bags />}/>
-            <Route path="/bags/:id" element = {<Bag />}/>
-            <Route path="/headphones" element = {<Headphones />}/>
-            <Route path="/headphones/:id" element = {<Headphone />}/>
-            <Route path="/berries" element = {<Berrys />}/>
-            <Route path="/berries/:id" element = {<Berry />}/>
-            <Route path="/cameras" element = {<Cameras />}/>
-            <Route path="/cameras/:id" element = {<Camera />}/>
-            <Route path="/products" element = {<Products />}/>
-            <Route path="/products/:id" element = {<ProductDetails />}/>
+            <Route path="/headphones" element = {<Bags />}/>
+            <Route path="/headphones/:id" element = {<Bag />}/>
+            <Route path="/handbags" element = {<Headphones />}/>
+            <Route path="/handbags/:id" element = {<Headphone />}/>
+            <Route path="/gaming" element = {<Berrys />}/>
+            <Route path="/gaming/:id" element = {<Berry />}/>
+            <Route path="/cameras" element = {<Products />}/>
+            <Route path="/cameras/:id" element = {<ProductDetails />}/>
             <Route path="*" element = {<NotFound />}/>
           </Routes>
         </div>

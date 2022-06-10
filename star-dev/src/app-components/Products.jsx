@@ -76,7 +76,7 @@ export default function Products(){
               color="#18FFFF"
             >
 
-              <Link to={`/products/${product.id}`} style={{
+              <Link to={`/cameras/${product.id}`} style={{
                 textDecoration:"none"
               }}>
 

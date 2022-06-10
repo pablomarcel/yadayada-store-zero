@@ -29,7 +29,8 @@ export default function Home() {
                 <a href="https://www.pexels.com/"
                    style={{
                      color: 'white',
-                     backgroundColor: '#386abb',
+                     // backgroundColor: '#386abb',
+                     backgroundColor: '#009688',
                      borderRadius: '8px',
                      padding: 8,
                      textDecoration: "none"
@@ -50,7 +51,8 @@ export default function Home() {
                 <a href="https://www.pexels.com/"
                    style={{
                      color: 'white',
-                     backgroundColor: '#f1356d',
+                     // backgroundColor: '#f1356d',
+                     backgroundColor: '#009688',
                      borderRadius: '8px',
                      padding: 8,
                      textDecoration: "none"

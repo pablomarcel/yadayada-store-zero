@@ -28,14 +28,14 @@ const Navbar = () => {
                borderRadius: '8px'
              }}
           >Cameras</a>
-          <a href="/bags" style={{
+          <a href="/headphones" style={{
             color: 'white',
             // backgroundColor: '#48C2F9',
             // backgroundColor: '#44af35',
             backgroundColor: '#009688',
             borderRadius: '8px'
-          }}>Handbags</a>
-          <a href="/headphones"
+          }}>Headphones</a>
+          <a href="/handbags"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
@@ -43,8 +43,8 @@ const Navbar = () => {
                backgroundColor: '#009688',
                borderRadius: '8px'
              }}
-          >Headphones</a>
-          <a href="/berries"
+          >Handbags</a>
+          <a href="/gaming"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
@@ -54,17 +54,6 @@ const Navbar = () => {
                borderRadius: '8px'
              }}
           >Gaming</a>
-
-          <a href="/products"
-             style={{
-               color: 'white',
-               // backgroundColor: '#48C2F9',
-               // backgroundColor: '#fccf00',
-               // backgroundColor: '#18FFFF',
-               backgroundColor: '#009688',
-               borderRadius: '8px'
-             }}
-          >Products</a>
 
         </div>
 
