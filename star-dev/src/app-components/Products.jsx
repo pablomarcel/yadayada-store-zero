@@ -53,7 +53,13 @@ export default function Products(){
     return (
       <div key={product.id}>
 
-        <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>
+        <Card elevation={2} style={{
+          // backgroundColor: "#E1F5FE"
+          // backgroundColor: "#673AB7"
+          // backgroundColor: "#651FFF"
+          backgroundColor: "#B2DFDB"
+
+        }}>
 
           <CardMedia
             component="img"
@@ -64,7 +70,11 @@ export default function Products(){
           />
 
           <CardContent>
-            <Typography variant='subtitle2' color="textSecondary">
+            <Typography
+              variant='subtitle2'
+              // color="textSecondary"
+              color="#18FFFF"
+            >
 
               <Link to={`/products/${product.id}`} style={{
                 textDecoration:"none"

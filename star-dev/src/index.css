@@ -6,7 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /*background-color: #bbdefb;*/
-  background-color: #B388FF;
+  /*background-color: #B388FF;*/
+  background-color: #E0F2F1;
 }
 
 code {
@@ -91,7 +92,9 @@ code {
   margin: 40px auto;
   padding: 20px;
   /*background-color: #eeffff;*/
-  background-color: #673AB7;
+  /*background-color: #673AB7;*/
+  /*background-color: #B388FF;*/
+  background-color: #E0F2F1;
 }
 
 .starship-preview {

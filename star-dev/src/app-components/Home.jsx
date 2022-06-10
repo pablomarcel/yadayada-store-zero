@@ -9,7 +9,13 @@ export default function Home() {
 
     <div className="home">
 
-      <Card elevation={2} style={{backgroundColor: "#E1F5FE"}}>
+      <Card
+        elevation={2}
+        style={{
+          // backgroundColor: "#E1F5FE"
+          backgroundColor: "#B2DFDB"
+      }}
+      >
         <CardContent>
           <Typography variant='subtitle2' color="textSecondary">
 

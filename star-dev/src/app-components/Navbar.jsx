@@ -6,7 +6,7 @@ const Navbar = () => {
 
     <nav className="navbar">
       <div className="navbar-container">
-        <center><img src="https://fontmeme.com/permalink/220608/974e832392ca53a94294cc0f0b79a703.png" alt="Yada Yada"/></center>
+        <center><img src="https://fontmeme.com/permalink/220610/2f6798e0ac6e2a6f38e4f3769a208d66.png" alt="Yada Yada"/></center>
         <br/>
         <br />
         <div className="links">
@@ -23,21 +23,24 @@ const Navbar = () => {
                color: 'white',
                // backgroundColor: '#48C2F9',
                // backgroundColor: '#6200ea',
-               backgroundColor: '#f1356d',
+               // backgroundColor: '#f1356d',
+               backgroundColor: '#009688',
                borderRadius: '8px'
              }}
           >Cameras</a>
           <a href="/bags" style={{
             color: 'white',
             // backgroundColor: '#48C2F9',
-            backgroundColor: '#44af35',
+            // backgroundColor: '#44af35',
+            backgroundColor: '#009688',
             borderRadius: '8px'
-          }}>Bags</a>
+          }}>Handbags</a>
           <a href="/headphones"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
-               backgroundColor: '#fccf00',
+               // backgroundColor: '#fccf00',
+               backgroundColor: '#009688',
                borderRadius: '8px'
              }}
           >Headphones</a>
@@ -46,17 +49,19 @@ const Navbar = () => {
                color: 'white',
                // backgroundColor: '#48C2F9',
                // backgroundColor: '#fccf00',
-               backgroundColor: '#e62310',
+               // backgroundColor: '#e62310',
+               backgroundColor: '#009688',
                borderRadius: '8px'
              }}
-          >Berries</a>
+          >Gaming</a>
 
           <a href="/products"
              style={{
                color: 'white',
                // backgroundColor: '#48C2F9',
                // backgroundColor: '#fccf00',
-               backgroundColor: '#76FF03',
+               // backgroundColor: '#18FFFF',
+               backgroundColor: '#009688',
                borderRadius: '8px'
              }}
           >Products</a>

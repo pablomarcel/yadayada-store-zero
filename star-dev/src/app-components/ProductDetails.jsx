@@ -41,7 +41,13 @@ export default function ProductDetails(){
       {!error && product && (
         <div>
 
-          <Card elevation={2}>
+          <Card
+            elevation={2}
+            style={{
+              backgroundColor: "#B2DFDB"
+            }}
+
+          >
             <CardMedia
               component="img"
               height="600"
