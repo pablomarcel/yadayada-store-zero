@@ -7,7 +7,7 @@ import {Card, CardContent, CardMedia, Typography} from "@mui/material";
 import {Container} from '@mui/material';
 import Masonry from 'react-masonry-css'
 
-export default function Headphones(){
+export default function Gaming(){
   const [products, setProducts] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(false)
@@ -21,7 +21,7 @@ export default function Headphones(){
   useEffect(()=>{
 
     const productsQuery = query(
-      collection(db, 'headphones')
+      collection(db, 'gaming')
     )
 
     const unsubscribe = onSnapshot(
@@ -76,7 +76,7 @@ export default function Headphones(){
               color="#18FFFF"
             >
 
-              <Link to={`/headphones/${product.id}`} style={{
+              <Link to={`/gaming/${product.id}`} style={{
                 textDecoration:"none"
               }}>
 

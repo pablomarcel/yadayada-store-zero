@@ -26,7 +26,7 @@ export default function Home() {
             <div className="swapi">
 
               <div className="links">
-                <a href="https://www.pexels.com/"
+                <a href="https://stripe.com/docs/api"
                    style={{
                      color: 'white',
                      // backgroundColor: '#386abb',
