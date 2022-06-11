@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added a side drawer component" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added a side drawer component">
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -68,21 +70,7 @@
       <workItem from="1654823585956" duration="346000" />
       <workItem from="1654832087590" duration="2284000" />
       <workItem from="1654888156139" duration="88000" />
-      <workItem from="1654978776096" duration="8783000" />
-    </task>
-    <task id="LOCAL-00001" summary="initial commit">
-      <created>1652847299407</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1652847299407</updated>
-    </task>
-    <task id="LOCAL-00002" summary="barebones app displaying a single character, starship, planet and vehicle">
-      <created>1653177082924</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1653177082924</updated>
+      <workItem from="1654978776096" duration="9105000" />
     </task>
     <task id="LOCAL-00003" summary="able to fetch a list of starships. need pagination">
       <created>1653182342730</created>
@@ -413,7 +401,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654987573956</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="added a side drawer component">
+      <created>1654987649686</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1654987649686</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added a side drawer component">
+      <created>1654987895236</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1654987895236</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

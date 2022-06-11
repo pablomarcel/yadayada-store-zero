@@ -10,6 +10,8 @@ const Navbar = () => {
         <br/>
         <br />
 
+        {/*add toolbar with current date*/}
+
         {/*<div className="links">*/}
         {/*  <a href="/"*/}
         {/*     style={{*/}
