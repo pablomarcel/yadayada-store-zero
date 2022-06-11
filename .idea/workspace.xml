@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added .env to .gitignore">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-    </list>
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added a side drawer component" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +68,7 @@
       <workItem from="1654823585956" duration="346000" />
       <workItem from="1654832087590" duration="2284000" />
       <workItem from="1654888156139" duration="88000" />
-      <workItem from="1654978776096" duration="8466000" />
+      <workItem from="1654978776096" duration="8783000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1652847299407</created>
@@ -414,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654888214945</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="added a side drawer component">
+      <created>1654987573956</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1654987573956</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="pokemons and berries are working" />
     <MESSAGE value="items working" />
     <MESSAGE value="Machines is working" />
     <MESSAGE value="Final Commit" />
@@ -457,6 +455,7 @@
     <MESSAGE value="UI updates" />
     <MESSAGE value="Refactored code, displays all products from the database" />
     <MESSAGE value="added .env to .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="added .env to .gitignore" />
+    <MESSAGE value="added a side drawer component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a side drawer component" />
   </component>
 </project>
