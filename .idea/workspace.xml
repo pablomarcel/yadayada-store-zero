@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="need to add toolbar with current date">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="attempting to fix react dependency hell">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,20 +74,7 @@
       <workItem from="1654832087590" duration="2284000" />
       <workItem from="1654888156139" duration="88000" />
       <workItem from="1654978776096" duration="9649000" />
-    </task>
-    <task id="LOCAL-00005" summary="able to display list of items for characters, starships, planets and vehicles. need detail views">
-      <created>1653185923837</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1653185923837</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added NotFound Page">
-      <created>1653187949119</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1653187949119</updated>
+      <workItem from="1654988523404" duration="2586000" />
     </task>
     <task id="LOCAL-00007" summary="able to click on a starship and display details">
       <created>1653189030013</created>
@@ -416,7 +405,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654988238243</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="need to add toolbar with current date">
+      <created>1654988585268</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1654988585268</updated>
+    </task>
+    <task id="LOCAL-00055" summary="attempting to fix react dependency hell">
+      <created>1654988770532</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1654988770532</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +437,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Machines is working" />
     <MESSAGE value="Final Commit" />
     <MESSAGE value="Final Commit, added linting" />
     <MESSAGE value="Final Commit, removed README.md" />
@@ -459,6 +461,7 @@
     <MESSAGE value="added .env to .gitignore" />
     <MESSAGE value="added a side drawer component" />
     <MESSAGE value="need to add toolbar with current date" />
-    <option name="LAST_COMMIT_MESSAGE" value="need to add toolbar with current date" />
+    <MESSAGE value="attempting to fix react dependency hell" />
+    <option name="LAST_COMMIT_MESSAGE" value="attempting to fix react dependency hell" />
   </component>
 </project>

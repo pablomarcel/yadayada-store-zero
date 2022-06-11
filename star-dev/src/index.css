@@ -90,7 +90,8 @@ code {
 .content {
   max-width: 600px;
   margin: 40px auto;
-  padding: 20px;
+  padding-left: 20px;
+  /*padding-top: 10px;*/
   /*background-color: #eeffff;*/
   /*background-color: #673AB7;*/
   /*background-color: #B388FF;*/
