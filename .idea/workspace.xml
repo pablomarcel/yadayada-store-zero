@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added a side drawer component">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="need to add toolbar with current date">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,21 +71,7 @@
       <workItem from="1654823585956" duration="346000" />
       <workItem from="1654832087590" duration="2284000" />
       <workItem from="1654888156139" duration="88000" />
-      <workItem from="1654978776096" duration="9105000" />
-    </task>
-    <task id="LOCAL-00003" summary="able to fetch a list of starships. need pagination">
-      <created>1653182342730</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1653182342730</updated>
-    </task>
-    <task id="LOCAL-00004" summary="updated css, added pagination buttons">
-      <created>1653184453233</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1653184453233</updated>
+      <workItem from="1654978776096" duration="9649000" />
     </task>
     <task id="LOCAL-00005" summary="able to display list of items for characters, starships, planets and vehicles. need detail views">
       <created>1653185923837</created>
@@ -415,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654987895236</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="need to add toolbar with current date">
+      <created>1654988014137</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1654988014137</updated>
+    </task>
+    <task id="LOCAL-00053" summary="need to add toolbar with current date">
+      <created>1654988238243</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1654988238243</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +434,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="items working" />
     <MESSAGE value="Machines is working" />
     <MESSAGE value="Final Commit" />
     <MESSAGE value="Final Commit, added linting" />
@@ -458,6 +458,7 @@
     <MESSAGE value="Refactored code, displays all products from the database" />
     <MESSAGE value="added .env to .gitignore" />
     <MESSAGE value="added a side drawer component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a side drawer component" />
+    <MESSAGE value="need to add toolbar with current date" />
+    <option name="LAST_COMMIT_MESSAGE" value="need to add toolbar with current date" />
   </component>
 </project>
