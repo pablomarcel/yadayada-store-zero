@@ -17,6 +17,7 @@ import {red} from "@mui/material/colors";
 import DrawerLeft from "./app-components/DrawerLeft"
 import ShoppingCart from "./app-components/ShoppingCart"
 import AddedToCart from "./app-components/AddedToCart";
+import { useLocalStorage} from "@har4s/use-local-storage";
 
 const theme = createTheme({
   palette:{
@@ -49,29 +50,47 @@ const theme = createTheme({
 })
 
 const INITIAL_LIST = JSON.parse(localStorage.getItem("shopcart"))
-console.log("initial list: ", INITIAL_LIST)
+// console.log("initial list: ", INITIAL_LIST)
+
+// const INITIAL_SUM =
 
 function App() {
 
   const [cart, setCart] = useState( INITIAL_LIST || [])
+  const [sum, setSum] = useState(0)
+  const [subtotal, setSubtotal] = useLocalStorage('total', 0)
 
   // const [cartVisible, setCartVisible] = useState(true)
+  console.log(sum)
 
   function addToCart(card){
 
     setCart([...cart, card])
+    setSum(Number(sum)+Number(card.price))
+    setSubtotal(Number(subtotal)+Number(card.price))
 
   }
 
   localStorage.setItem("shopcart", JSON.stringify(cart))
 
   function removeFromCart(idx){
+    setSum(Number(sum)-Number(cart[idx].price))
+    setSubtotal(Number(subtotal)-Number(cart[idx].price))
 
     console.log('button clicked')
-    console.log(idx)
+    // console.log(idx)
     setCart([...cart.slice(0, idx), ...cart.slice(idx+1, cart.length)])
 
   }
+
+  // let sum=0
+  // cart.forEach(value =>{
+  //   sum+=value.price
+  // })
+  //
+  // console.log(sum)
+
+  console.log(sum)
 
   return (
     <ThemeProvider theme={theme}>
@@ -91,7 +110,13 @@ function App() {
                   <Route path="/gaming/:id" element = {<GamingDetails addToCart = {addToCart}/>}/>
                   <Route path="/cameras" element = {<Products />}/>
                   <Route path="/cameras/:id" element = {<ProductDetails addToCart = {addToCart}/>}/>
-                  <Route path="/shoppingcart" element = {<ShoppingCart cart={cart} removeFromCart={removeFromCart}/>}/>
+                  <Route path="/shoppingcart" element = {<ShoppingCart
+                    cart={cart}
+                    removeFromCart={removeFromCart}
+                    sum={subtotal}
+                  />
+                  }
+                  />
                   <Route path="/addedtocart" element = {<AddedToCart />}/>
                   <Route path="*" element = {<NotFound />}/>
                 </Routes>

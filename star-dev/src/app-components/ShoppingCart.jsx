@@ -1,12 +1,12 @@
 import React from 'react'
 import ShopItem from "./ShopItem";
 import Masonry from 'react-masonry-css'
-import {Container} from "@mui/material";
+import {Card, CardActions, CardContent, Container, Typography} from "@mui/material";
 import {Button} from "@mui/material"
 import {Box} from "@mui/material"
 // import {Box, Button, CardActions} from "@mui/material"
 
-export default function ShoppingCart({cart, removeFromCart}){
+export default function ShoppingCart({cart, removeFromCart, sum}){
 
 
   const breakpoints = {
@@ -34,56 +34,47 @@ export default function ShoppingCart({cart, removeFromCart}){
           columnClassName="my-masonry-grid_column"
         >
           {shoppingCartList}
-
         </Masonry>
-
       </Container>
-
-      <Box m={3} pt={1}>
-        <Button
-          size="large"
-          variant="contained"
-          color="checkout3"
+      <Container>
+        <Card
+          elevation={2}
           style={{
-            color: "white"
+            // backgroundColor: "#B2DFDB"
+            backgroundColor: "#E0F2F1",
+            borderColor:"#009688",
+            borderStyle:"solid"
           }}
-
         >
-          Checkout
-
-        </Button>
-
-      </Box>
-
-
-
-
-      {/*<Box*/}
-      {/*  m={3}*/}
-      {/*  p={0}*/}
-
-      {/*>*/}
-
-
-        {/*<Button*/}
-        {/*  size="large"*/}
-        {/*  variant="contained"*/}
-        {/*  color="black"*/}
-        {/*>*/}
-        {/*  Checkout*/}
-
-        {/*</Button>*/}
-
-
-
-
-
-      {/*</Box>*/}
-
-
-
-
-
+          <CardContent>
+            <Typography
+              gutterBottom
+              variant = "h5"
+            >
+              Subtotal
+            </Typography>
+            <Typography
+              variant="h3"
+              color="text.secondary">
+              ${sum}
+            </Typography>
+          </CardContent>
+          <CardActions>
+            <Box m={1} pt={0}>
+              <Button
+                size="large"
+                variant="contained"
+                color="checkout3"
+                style={{
+                  color: "white"
+                }}
+              >
+                Checkout
+              </Button>
+            </Box>
+          </CardActions>
+        </Card>
+      </Container>
     </div>
   )
 }

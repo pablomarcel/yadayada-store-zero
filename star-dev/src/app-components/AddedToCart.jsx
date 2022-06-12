@@ -49,7 +49,7 @@ export default function AddedToCart(){
                 color="text.secondary"
               >
 
-                Use the navigation menu to continue browsing or checkout
+                Click on the Shopping Cart to review or continue Shopping
 
 
               </Typography>
