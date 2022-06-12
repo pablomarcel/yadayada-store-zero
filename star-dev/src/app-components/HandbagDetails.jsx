@@ -89,8 +89,8 @@ export default function HandbagDetails({addToCart}){
                 variant="body2"
                 color="text.secondary"
                 style={{
-                  color:"#009688",
-                  // fontWeight:"bold"
+                  color:"secondary",
+                  fontWeight:"bold"
                 }}
 
               >

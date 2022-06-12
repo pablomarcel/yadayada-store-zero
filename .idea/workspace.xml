@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Added a Checkout Form, Updated UI">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Updated Styles">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/AddedToCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/AddedToCart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +73,7 @@
       <workItem from="1654978776096" duration="9649000" />
       <workItem from="1654988523404" duration="7980000" />
       <workItem from="1654996627852" duration="19257000" />
-      <workItem from="1655048180449" duration="10354000" />
-    </task>
-    <task id="LOCAL-00017" summary="new project using the pokemon API. refactored code, able to fetch list of pokemons, and able to paginate">
-      <created>1653247702766</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1653247702766</updated>
+      <workItem from="1655048180449" duration="12132000" />
     </task>
     <task id="LOCAL-00018" summary="able to display pokemon details">
       <created>1653248070081</created>
@@ -426,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655056761593</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="Updated Styles">
+      <created>1655058874524</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1655058874525</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +436,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added A Dummy component to test the firestore database" />
     <MESSAGE value="cleaned up, no new functionality" />
     <MESSAGE value="able to fetch data from the firestore database and display it in the browser" />
     <MESSAGE value="able to use the masonry component for products" />
@@ -469,6 +460,7 @@
     <MESSAGE value="added local storage for the subTotal amount. added a card for subtotal and checkout button" />
     <MESSAGE value="added a Checkout component. Upgraded Navigation, updated UI" />
     <MESSAGE value="Added a Checkout Form, Updated UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Checkout Form, Updated UI" />
+    <MESSAGE value="Updated Styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Styles" />
   </component>
 </project>
