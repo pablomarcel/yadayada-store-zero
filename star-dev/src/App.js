@@ -22,6 +22,9 @@ const theme = createTheme({
     },
     secondary: {
       main: teal[900]
+    },
+    tertiary: {
+      main: teal[500]
     }
   },
   typography:{

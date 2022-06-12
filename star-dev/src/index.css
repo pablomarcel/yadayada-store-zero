@@ -115,9 +115,30 @@ code {
   /*background-color: #eeffff;*/
 }
 
+.home h5 {
+  font-size: 35px;
+  /*color: #48C2F9;*/
+  color: #004D40;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  text-decoration: none;
+  /*background-color: #eeffff;*/
+}
+
+.home button {
+  font-size:16px;
+  /*color: #48C2F9;*/
+  color: white;
+  margin-bottom: 8px;
+  padding-left: 20px;
+  text-decoration: none;
+  /*background-color: #eeffff;*/
+}
+
 .home p {
   font-size: 16px;
-  color: #282c34;
+  /*color: #282c34;*/
+  color: #009688;
   margin-bottom: 8px;
   padding-left: 20px;
   text-decoration: none;

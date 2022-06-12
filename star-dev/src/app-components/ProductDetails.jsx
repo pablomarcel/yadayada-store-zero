@@ -2,10 +2,11 @@ import React, {useEffect, useState} from 'react'
 import {doc, getDoc} from 'firebase/firestore'
 import { useParams} from "react-router-dom";
 import db from "../db";
-import {CardMedia} from '@mui/material';
+import {Button, CardActions, CardMedia} from '@mui/material';
 import {Card} from "@mui/material";
 import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
+import {Box} from "@mui/material"
 
 export default function ProductDetails(){
 
@@ -56,24 +57,63 @@ export default function ProductDetails(){
             />
             <CardContent>
 
-              <Typography gutterBottom variant = "h5" component="div">
+              <Typography
+                gutterBottom
+                variant = "h5"
+
+                // component="div"
+
+              >
 
                 {product.name}
 
               </Typography>
 
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                color="text.secondary">
 
                 {product.description}
 
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+
+              <Typography
+
+                variant="body2"
+                color="text.secondary"
+                // color="common.white"
+
+              >
 
                 Price: ${product.price}
 
               </Typography>
 
             </CardContent>
+
+            <CardActions>
+              <Box
+                m={3}
+                p={0}
+              >
+                <Button
+                  size="large"
+                  variant="contained"
+                  color="tertiary"
+                  onClick={()=>{
+                    alert('clicked')
+                  }}
+                  // color="blue"
+                >
+                  Add to Cart
+
+                </Button>
+
+              </Box>
+
+            </CardActions>
+
+
 
           </Card>
 
