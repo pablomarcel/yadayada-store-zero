@@ -26,8 +26,19 @@ export default function ShopItem({card, id, onRemove}){
           <Typography
             variant='body2'
             color="#004D40"
+            style={{
+              color:"#004D40"
+            }}
           >
-              <p>{card.name}</p>
+              <p
+                style={{
+                  color:"#004D40",
+                  fontSize: 16,
+                  fontWeight: "bold"
+
+                }}
+
+              >{card.name}</p>
 
           </Typography>
           <Typography
@@ -68,6 +79,5 @@ export default function ShopItem({card, id, onRemove}){
       null
 
   )
-
 
 }

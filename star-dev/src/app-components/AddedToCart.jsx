@@ -1,17 +1,15 @@
-import {Card, CardActions, CardContent, Typography} from "@mui/material";
-import {Box, Button} from "@mui/material"
+import {Card, CardActions, CardContent, Divider, Stack, Typography} from "@mui/material";
+import {Button} from "@mui/material"
+// import {Box} from "@mui/material"
 import React from "react";
 import { useNavigate } from "react-router";
-// import {useNavigation} from '@react-navigation/native'
 
 export default function AddedToCart(){
 
   const navigate = useNavigate()
-
-  // history = useNavigate()
   const handleClickHome=(e)=>{
     e.preventDefault()
-    navigate('/')
+    navigate(-2)
 
   }
 
@@ -22,92 +20,78 @@ export default function AddedToCart(){
   }
 
   return(
-
-    <div className="home">
+    <div>
         <div>
           <Card
             elevation={2}
             style={{
               backgroundColor: "#B2DFDB"
             }}
-
           >
-
             <CardContent>
-
               <Typography
                 gutterBottom
                 variant = "h5"
-
+                style={{
+                  color:"#004D40"
+                }}
               >
                 Item Added To Cart
-
               </Typography>
-
               <Typography
                 variant="body2"
                 color="text.secondary"
+                style={{
+                  color:"#009688"
+                }}
               >
-
                 Click on the Shopping Cart to review or continue Shopping
-
-
               </Typography>
-
               <Typography
-
                 variant="body2"
                 color="text.secondary"
-
               >
-
               </Typography>
-
             </CardContent>
-
             <CardActions>
-              <Box
-                m={3}
-                p={0}
+              <Stack
+
+                direction={{ xs: 'column', sm: 'row' }}
+                spacing={{ xs: 1, sm: 2, md: 4 }}
+                margin={2}
+                divider={<Divider orientation="vertical" flexItem />}
+                justifyContent="center"
+                alignItems="center"
+
               >
                 <Button
                   size="large"
                   variant="contained"
                   color="tertiary"
                   onClick={handleClickShoppingCart}
-
+                  style={{
+                    color:"white"
+                  }}
                 >
                   Shopping Cart
-
                 </Button>
-
-              </Box>
-
-              <Box
-                m={3}
-                p={0}
-              >
                 <Button
                   size="large"
                   variant="contained"
                   color="tertiary"
                   onClick={handleClickHome}
-
+                  style={{
+                    color:"white",
+                  }}
                 >
-                  Home
-
+                  Back to Items
                 </Button>
-
-              </Box>
-
+              </Stack>
             </CardActions>
-
-
 
           </Card>
 
         </div>
-
 
     </div>
 

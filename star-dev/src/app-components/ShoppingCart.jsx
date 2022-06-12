@@ -4,10 +4,8 @@ import Masonry from 'react-masonry-css'
 import {Card, CardActions, CardContent, Container, Typography} from "@mui/material";
 import {Button} from "@mui/material"
 import {Box} from "@mui/material"
-// import {Box, Button, CardActions} from "@mui/material"
 
 export default function ShoppingCart({cart, removeFromCart, sum}){
-
 
   const breakpoints = {
     default: 3,
