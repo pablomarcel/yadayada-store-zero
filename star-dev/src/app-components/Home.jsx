@@ -17,10 +17,13 @@ export default function Home() {
       }}
       >
         <CardContent>
-          <Typography variant='subtitle2' color="textSecondary">
+          <Typography
+            variant='subtitle2'
+
+            color="textSecondary">
 
             <h2>Welcome Shoppers!</h2>
-            <p>Launching in Q4 2022</p>
+            <p>Online Shop coming up Q4 2022</p>
             <p>Credit Card Gateway courtesy of Stripe</p>
             <br/>
             <div className="swapi">

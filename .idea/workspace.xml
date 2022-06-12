@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="updated ui, added a toolbar with current date in Navbar.jsx">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added Add to Cart Button in each product details component">
+      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
@@ -77,14 +79,8 @@
       <workItem from="1654832087590" duration="2284000" />
       <workItem from="1654888156139" duration="88000" />
       <workItem from="1654978776096" duration="9649000" />
-      <workItem from="1654988523404" duration="5305000" />
-    </task>
-    <task id="LOCAL-00008" summary="able to display details for any starship">
-      <created>1653190722064</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1653190722064</updated>
+      <workItem from="1654988523404" duration="7980000" />
+      <workItem from="1654996627852" duration="1310000" />
     </task>
     <task id="LOCAL-00009" summary="characters and starships working">
       <created>1653191456845</created>
@@ -422,7 +418,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654991455528</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="added Add to Cart Button in each product details component">
+      <created>1654994176615</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1654994176615</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +443,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Final Commit, added linting" />
     <MESSAGE value="Final Commit, removed README.md" />
     <MESSAGE value="Final Commit, added README.md back in" />
     <MESSAGE value="Final commit" />
@@ -465,6 +467,7 @@
     <MESSAGE value="need to add toolbar with current date" />
     <MESSAGE value="attempting to fix react dependency hell" />
     <MESSAGE value="updated ui, added a toolbar with current date in Navbar.jsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated ui, added a toolbar with current date in Navbar.jsx" />
+    <MESSAGE value="added Add to Cart Button in each product details component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Add to Cart Button in each product details component" />
   </component>
 </project>

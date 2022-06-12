@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Navbar from './app-components/Navbar';
 import Home from './app-components/Home';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -14,6 +14,7 @@ import GamingDetails from "./app-components/GamingDetails";
 import {createTheme, ThemeProvider} from "@mui/material";
 import {teal} from "@mui/material/colors";
 import DrawerLeft from "./app-components/DrawerLeft"
+import ShoppingCart from "./app-components/ShoppingCart"
 
 const theme = createTheme({
   palette:{
@@ -38,6 +39,29 @@ const theme = createTheme({
 
 
 function App() {
+
+  const [cart, setCart] = useState([])
+  // const [cartVisible, setCartVisible] = useState(true)
+
+  function addToCart(card){
+
+    // console.log('button clicked')
+    // console.log(cart)
+    setCart([...cart, card])
+
+  }
+
+  function removeFromCart(idx){
+
+    console.log('button clicked')
+    console.log(idx)
+    setCart([...cart.slice(0, idx), ...cart.slice(idx+1, cart.length)])
+
+  }
+
+  // console.log(cart)
+
+
   return (
     <ThemeProvider theme={theme}>
       <Router>
@@ -48,14 +72,15 @@ function App() {
               <DrawerLeft>
                 <Routes>
                   <Route exact path="/" element = {<Home />}/>
-                  <Route path="/headphones" element = {<Headphones />}/>
-                  <Route path="/headphones/:id" element = {<HeadphoneDetails />}/>
+                  <Route path="/headphones" element = {<Headphones  />}/>
+                  <Route path="/headphones/:id" element = {<HeadphoneDetails addToCart = {addToCart}/>}/>
                   <Route path="/handbags" element = {<Handbags />}/>
-                  <Route path="/handbags/:id" element = {<HandbagDetails />}/>
+                  <Route path="/handbags/:id" element = {<HandbagDetails addToCart = {addToCart}/>}/>
                   <Route path="/gaming" element = {<Gaming />}/>
-                  <Route path="/gaming/:id" element = {<GamingDetails />}/>
+                  <Route path="/gaming/:id" element = {<GamingDetails addToCart = {addToCart}/>}/>
                   <Route path="/cameras" element = {<Products />}/>
-                  <Route path="/cameras/:id" element = {<ProductDetails />}/>
+                  <Route path="/cameras/:id" element = {<ProductDetails addToCart = {addToCart}/>}/>
+                  <Route path="/shoppingcart" element = {<ShoppingCart cart={cart} removeFromCart={removeFromCart}/>}/>
                   <Route path="*" element = {<NotFound />}/>
                 </Routes>
               </DrawerLeft>

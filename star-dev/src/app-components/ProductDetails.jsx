@@ -8,7 +8,10 @@ import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
 import {Box} from "@mui/material"
 
-export default function ProductDetails(){
+export default function ProductDetails({addToCart}){
+
+
+
 
   const {id} = useParams()
   const [product, setProduct] = useState({})
@@ -100,9 +103,7 @@ export default function ProductDetails(){
                   size="large"
                   variant="contained"
                   color="tertiary"
-                  onClick={()=>{
-                    alert('clicked')
-                  }}
+                  onClick={()=>addToCart(product)}
                   // color="blue"
                 >
                   Add to Cart

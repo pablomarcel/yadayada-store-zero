@@ -39,7 +39,7 @@ const Navbar = () => {
         <br/>
         <br />
         <AppBar
-          position="bottom"
+          position="relative"
           className={classes.appBar}
           elevation={0}
           color="primary"
