@@ -4,21 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added a Checkout component. Upgraded Navigation, updated UI">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutForm.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Added a Checkout Form, Updated UI">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/.eslintrc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Gaming.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Gaming.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Handbags.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Handbags.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Headphones.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Headphones.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/AddedToCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/AddedToCart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Home.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Products.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,14 +81,7 @@
       <workItem from="1654978776096" duration="9649000" />
       <workItem from="1654988523404" duration="7980000" />
       <workItem from="1654996627852" duration="19257000" />
-      <workItem from="1655048180449" duration="8178000" />
-    </task>
-    <task id="LOCAL-00016" summary="Final Commit">
-      <created>1653237890509</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1653237890509</updated>
+      <workItem from="1655048180449" duration="10354000" />
     </task>
     <task id="LOCAL-00017" summary="new project using the pokemon API. refactored code, able to fetch list of pokemons, and able to paginate">
       <created>1653247702766</created>
@@ -431,7 +419,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655051605062</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Added a Checkout Form, Updated UI">
+      <created>1655056761593</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1655056761593</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +444,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first attempt at continuous deployment" />
     <MESSAGE value="added A Dummy component to test the firestore database" />
     <MESSAGE value="cleaned up, no new functionality" />
     <MESSAGE value="able to fetch data from the firestore database and display it in the browser" />
@@ -474,6 +468,7 @@
     <MESSAGE value="updated other product details categories to handle add to cart actions" />
     <MESSAGE value="added local storage for the subTotal amount. added a card for subtotal and checkout button" />
     <MESSAGE value="added a Checkout component. Upgraded Navigation, updated UI" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a Checkout component. Upgraded Navigation, updated UI" />
+    <MESSAGE value="Added a Checkout Form, Updated UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a Checkout Form, Updated UI" />
   </component>
 </project>

@@ -22,9 +22,29 @@ export default function Home() {
 
             color="textSecondary">
 
-            <h2>Welcome Shoppers!</h2>
-            <p>Online Shop coming up Q4 2022</p>
-            <p>Credit Card Gateway courtesy of Stripe</p>
+            <h2
+              style={{
+                fontWeight:"bold"
+              }}
+
+            >
+              Welcome Shoppers!
+            </h2>
+            <p
+              style={{
+                fontSize:18,
+                fontFamily: "Quicksand"
+              }}
+            >
+              Online Shop coming up Q4 2022
+            </p>
+            <p
+              style={{
+                fontSize:14
+              }}
+            >
+              Credit Card Gateway courtesy of Stripe
+            </p>
             <br/>
             <div className="swapi">
 
@@ -46,7 +66,11 @@ export default function Home() {
             </div>
             <br/>
 
-            <p>Images courtesy of Pexels</p>
+            <p
+              style={{
+                fontSize:14
+              }}
+            >Images courtesy of Pexels</p>
             <br/>
 
             <div className="swapi">

@@ -37,7 +37,7 @@ export default function GamingDetails({addToCart}){
   }
 
   return(
-    <div className="home">
+    <div>
 
       {!error && product && (
         <div>
@@ -60,18 +60,37 @@ export default function GamingDetails({addToCart}){
               <Typography
                 gutterBottom
                 variant = "h5"
+                style={{
+                  color:"#004D40",
+                  fontWeight:"bold"
+                }}
               >
 
                 {product.name}
 
               </Typography>
 
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                style={{
+                  fontSize:16,
+                  color:"#009688"
+                }}
+
+              >
 
                 {product.description}
 
               </Typography>
-              <Typography variant="body2" color="text.secondary">
+              <Typography
+                variant="body2"
+                color="text.secondary"
+                style={{
+                  color:"#009688",
+                  // fontWeight:"bold"
+                }}
+              >
 
                 Price: ${product.price}
 
@@ -81,14 +100,14 @@ export default function GamingDetails({addToCart}){
 
             <CardActions>
               <Box
-                m={3}
+                m={1}
                 p={0}
 
               >
                 <Stack
                   direction={{ xs: 'column', sm: 'row' }}
                   spacing={{ xs: 1, sm: 2, md: 4 }}
-                  margin={2}
+                  margin={0}
                   divider={<Divider orientation="vertical" flexItem />}
                   justifyContent="center"
                   alignItems="center"
@@ -104,6 +123,10 @@ export default function GamingDetails({addToCart}){
                       addToCart(product)
                       history("/addedtocart")
                     }}
+                    style={{
+                      // padding:10
+                      color:"white"
+                    }}
                   >
                     Add to Cart
                   </Button>
@@ -115,6 +138,10 @@ export default function GamingDetails({addToCart}){
                     onClick={()=>{
                       addToCart(product)
                       history(-1)
+                    }}
+                    style={{
+                      // padding:10
+                      color:"white"
                     }}
                   >
                     Back to Items

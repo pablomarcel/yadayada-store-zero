@@ -42,7 +42,8 @@ export default function AddedToCart(){
                 variant="body2"
                 color="text.secondary"
                 style={{
-                  color:"#009688"
+                  color:"#009688",
+                  fontSize: 16
                 }}
               >
                 Click on the Shopping Cart to review or continue Shopping
