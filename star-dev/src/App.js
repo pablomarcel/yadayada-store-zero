@@ -105,7 +105,7 @@ function App() {
                   }
                   />
                   <Route path="/addedtocart" element = {<AddedToCart />}/>
-                  <Route path="/chekcoutpage" element = {<CheckoutPage />}/>
+                  <Route path="/checkoutpage" element = {<CheckoutPage />}/>
                   <Route path="*" element = {<NotFound />}/>
                 </Routes>
               </DrawerLeft>

@@ -4,8 +4,10 @@ import Masonry from 'react-masonry-css'
 import {Card, CardActions, CardContent, Container, Typography} from "@mui/material";
 import {Button} from "@mui/material"
 import {Box} from "@mui/material"
+import {useNavigate} from "react-router";
 
 export default function ShoppingCart({cart, removeFromCart, sum}){
+  const navigate = useNavigate()
 
   const breakpoints = {
     default: 3,
@@ -66,6 +68,7 @@ export default function ShoppingCart({cart, removeFromCart, sum}){
                 style={{
                   color: "white"
                 }}
+                onClick={()=>navigate("/checkoutpage")}
               >
                 Checkout
               </Button>

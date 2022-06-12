@@ -263,3 +263,16 @@ code {
   margin: 0 auto;
 
 }
+
+.form-group{
+  font-size: 16px;
+  background-color: #E0F2F1;
+  /*color: #ba9d37;*/
+  color: slategray;
+  font-weight: normal;
+  /*opacity: 0.5;*/
+  text-align: left;
+  /*margin: 1rem;*/
+  /*padding-top: 10px;*/
+
+}

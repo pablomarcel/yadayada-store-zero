@@ -34,7 +34,8 @@ export default function ShopItem({card, id, onRemove}){
                 style={{
                   color:"#004D40",
                   fontSize: 16,
-                  fontWeight: "bold"
+                  fontWeight: "bold",
+                  marginTop:6
 
                 }}
 

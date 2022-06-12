@@ -74,13 +74,23 @@ export default function Handbags(){
               variant='subtitle2'
               // color="textSecondary"
               color="#18FFFF"
+              style={{
+                fontSize:20,
+                fontWeight:"bold",
+                color:"#004D40"
+              }}
             >
 
-              <Link to={`/handbags/${product.id}`} style={{
-                textDecoration:"none"
-              }}>
+              <Link to={`/handbags/${product.id}`}
+                    style={{
+                      textDecoration:"none",
+                      color:"#004D40"
 
-                <h2>{product.data().name}</h2>
+                    }}
+
+              >
+
+                <p>{product.data().name}</p>
 
               </Link>
 

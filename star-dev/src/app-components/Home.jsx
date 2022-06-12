@@ -44,6 +44,7 @@ export default function Home() {
               </div>
 
             </div>
+            <br/>
 
             <p>Images courtesy of Pexels</p>
             <br/>
