@@ -13,6 +13,7 @@ import HandbagDetails from "./app-components/HandbagDetails";
 import GamingDetails from "./app-components/GamingDetails";
 import {createTheme, ThemeProvider} from "@mui/material";
 import {teal} from "@mui/material/colors";
+import {red} from "@mui/material/colors";
 import DrawerLeft from "./app-components/DrawerLeft"
 import ShoppingCart from "./app-components/ShoppingCart"
 import AddedToCart from "./app-components/AddedToCart";
@@ -27,7 +28,16 @@ const theme = createTheme({
     },
     tertiary: {
       main: teal[500]
-    }
+    },
+    checkout: {
+      main: red["A700"]
+    },
+    checkout2: {
+      main: "#0275d8"
+    },
+    checkout3: {
+      main: "black"
+    },
   },
   typography:{
     fontFamily: 'Quicksand',

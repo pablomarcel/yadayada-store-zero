@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to populate shopping cart">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to persist shopping cart data with local storage">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,14 +76,7 @@
       <workItem from="1654888156139" duration="88000" />
       <workItem from="1654978776096" duration="9649000" />
       <workItem from="1654988523404" duration="7980000" />
-      <workItem from="1654996627852" duration="9295000" />
-    </task>
-    <task id="LOCAL-00011" summary="fixed issue in relation to detail pages">
-      <created>1653193384561</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1653193384561</updated>
+      <workItem from="1654996627852" duration="13706000" />
     </task>
     <task id="LOCAL-00012" summary="pagination is working. need to handle fetch errors">
       <created>1653197550376</created>
@@ -420,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655001818921</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="able to persist shopping cart data with local storage">
+      <created>1655006163435</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1655006163435</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Final commit" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactored, added color palette" />
     <MESSAGE value="refactored, added deep purple color swatch" />
@@ -463,6 +463,7 @@
     <MESSAGE value="added Add to Cart Button in each product details component" />
     <MESSAGE value="able to build a barebones shopping cart" />
     <MESSAGE value="able to populate shopping cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="able to populate shopping cart" />
+    <MESSAGE value="able to persist shopping cart data with local storage" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to persist shopping cart data with local storage" />
   </component>
 </project>
