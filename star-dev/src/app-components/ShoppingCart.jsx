@@ -14,7 +14,9 @@ export default function ShoppingCart({cart, removeFromCart}){
   return(
 
     <div className="shopping-cart-component">
+
       {shoppingCartList}
+
     </div>
   )
 }

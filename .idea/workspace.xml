@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to build a barebones shopping cart">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/AddedToCart.jsx" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to populate shopping cart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,14 +75,7 @@
       <workItem from="1654888156139" duration="88000" />
       <workItem from="1654978776096" duration="9649000" />
       <workItem from="1654988523404" duration="7980000" />
-      <workItem from="1654996627852" duration="5035000" />
-    </task>
-    <task id="LOCAL-00010" summary="planets and vehicles working">
-      <created>1653192535043</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1653192535043</updated>
+      <workItem from="1654996627852" duration="9295000" />
     </task>
     <task id="LOCAL-00011" summary="fixed issue in relation to detail pages">
       <created>1653193384561</created>
@@ -422,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654998070047</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="able to populate shopping cart">
+      <created>1655001818921</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1655001818921</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -440,7 +438,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Final Commit, added README.md back in" />
     <MESSAGE value="Final commit" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="refactored, added color palette" />
@@ -465,6 +462,7 @@
     <MESSAGE value="updated ui, added a toolbar with current date in Navbar.jsx" />
     <MESSAGE value="added Add to Cart Button in each product details component" />
     <MESSAGE value="able to build a barebones shopping cart" />
-    <option name="LAST_COMMIT_MESSAGE" value="able to build a barebones shopping cart" />
+    <MESSAGE value="able to populate shopping cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="able to populate shopping cart" />
   </component>
 </project>

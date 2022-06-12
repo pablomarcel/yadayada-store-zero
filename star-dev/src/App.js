@@ -38,20 +38,22 @@ const theme = createTheme({
   }
 })
 
+const INITIAL_LIST = JSON.parse(localStorage.getItem("shopcart"))
+console.log("initial list: ", INITIAL_LIST)
 
 function App() {
 
-  const [cart, setCart] = useState([])
+  const [cart, setCart] = useState( INITIAL_LIST || [])
+
   // const [cartVisible, setCartVisible] = useState(true)
 
   function addToCart(card){
 
-
-    // console.log('button clicked')
-    // console.log(cart)
     setCart([...cart, card])
 
   }
+
+  localStorage.setItem("shopcart", JSON.stringify(cart))
 
   function removeFromCart(idx){
 
@@ -60,9 +62,6 @@ function App() {
     setCart([...cart.slice(0, idx), ...cart.slice(idx+1, cart.length)])
 
   }
-
-  // console.log(cart)
-
 
   return (
     <ThemeProvider theme={theme}>
