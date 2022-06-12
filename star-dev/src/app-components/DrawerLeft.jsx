@@ -83,7 +83,7 @@ export default function DrawerLeft({ children }) {
       path: '/gaming'
     },
     {
-      text: 'Cart',
+      text: 'Shopping Cart',
       icon: <LocalOffer color="secondary" />,
       path: '/shoppingcart'
     },

@@ -7,12 +7,13 @@ import {Card} from "@mui/material";
 import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
 import {Box} from "@mui/material"
+import { useNavigate } from 'react-router'
+// import {useLocation} from 'react-router-dom'
+
 
 export default function ProductDetails({addToCart}){
-
-
-
-
+  const history = useNavigate()
+  // const location = useLocation()
   const {id} = useParams()
   const [product, setProduct] = useState({})
   const [loading, setLoading] = useState(true)
@@ -103,7 +104,12 @@ export default function ProductDetails({addToCart}){
                   size="large"
                   variant="contained"
                   color="tertiary"
-                  onClick={()=>addToCart(product)}
+                  onClick={()=>{
+
+                    addToCart(product)
+                    history("/addedtocart")
+
+                  }}
                   // color="blue"
                 >
                   Add to Cart

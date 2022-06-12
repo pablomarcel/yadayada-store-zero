@@ -15,6 +15,7 @@ import {createTheme, ThemeProvider} from "@mui/material";
 import {teal} from "@mui/material/colors";
 import DrawerLeft from "./app-components/DrawerLeft"
 import ShoppingCart from "./app-components/ShoppingCart"
+import AddedToCart from "./app-components/AddedToCart";
 
 const theme = createTheme({
   palette:{
@@ -44,6 +45,7 @@ function App() {
   // const [cartVisible, setCartVisible] = useState(true)
 
   function addToCart(card){
+
 
     // console.log('button clicked')
     // console.log(cart)
@@ -81,6 +83,7 @@ function App() {
                   <Route path="/cameras" element = {<Products />}/>
                   <Route path="/cameras/:id" element = {<ProductDetails addToCart = {addToCart}/>}/>
                   <Route path="/shoppingcart" element = {<ShoppingCart cart={cart} removeFromCart={removeFromCart}/>}/>
+                  <Route path="/addedtocart" element = {<AddedToCart />}/>
                   <Route path="*" element = {<NotFound />}/>
                 </Routes>
               </DrawerLeft>

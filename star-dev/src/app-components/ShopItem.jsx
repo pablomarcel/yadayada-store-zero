@@ -28,13 +28,13 @@ export default function ShopItem({card, id, onRemove}){
 
       <div>
 
-        <p className="rental-city"> {card.description} </p>
+        {/*<p className="rental-city"> {card.description} </p>*/}
 
       </div>
 
       <div>
 
-        <p className="rental-price"> {card.price} </p>
+        <p className="rental-price">Price:  ${card.price} </p>
 
         <div>
           <button className="btn btn-danger" onClick={onRemove}>Remove</button>
