@@ -6,8 +6,10 @@ import {Box, Button, CardActions, CardMedia} from '@mui/material';
 import {Card} from "@mui/material";
 import {CardContent} from "@mui/material";
 import {Typography} from "@mui/material";
+import {useNavigate} from "react-router";
 
-export default function HeadphoneDetails(){
+export default function HeadphoneDetails({addToCart}){
+  const history = useNavigate()
 
   const {id} = useParams()
   const [product, setProduct] = useState({})
@@ -89,7 +91,10 @@ export default function HeadphoneDetails(){
                   variant="contained"
                   color="tertiary"
                   onClick={()=>{
-                    alert('clicked')
+
+                    addToCart(product)
+                    history("/addedtocart")
+
                   }}
 
                 >

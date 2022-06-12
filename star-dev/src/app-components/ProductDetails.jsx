@@ -110,7 +110,7 @@ export default function ProductDetails({addToCart}){
                     history("/addedtocart")
 
                   }}
-                  // color="blue"
+
                 >
                   Add to Cart
 

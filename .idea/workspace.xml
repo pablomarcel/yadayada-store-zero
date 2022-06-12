@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="able to persist shopping cart data with local storage">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="added checkout button">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShopItem.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/GamingDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HandbagDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/HeadphoneDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ProductDetails.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +76,7 @@
       <workItem from="1654888156139" duration="88000" />
       <workItem from="1654978776096" duration="9649000" />
       <workItem from="1654988523404" duration="7980000" />
-      <workItem from="1654996627852" duration="13706000" />
-    </task>
-    <task id="LOCAL-00012" summary="pagination is working. need to handle fetch errors">
-      <created>1653197550376</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1653197550376</updated>
+      <workItem from="1654996627852" duration="14520000" />
     </task>
     <task id="LOCAL-00013" summary="able to handle errors in pagination">
       <created>1653198753740</created>
@@ -421,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655006163435</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="added checkout button">
+      <created>1655010761237</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1655010761237</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initial commit" />
     <MESSAGE value="refactored, added color palette" />
     <MESSAGE value="refactored, added deep purple color swatch" />
     <MESSAGE value="updated button colors" />
@@ -464,6 +463,7 @@
     <MESSAGE value="able to build a barebones shopping cart" />
     <MESSAGE value="able to populate shopping cart" />
     <MESSAGE value="able to persist shopping cart data with local storage" />
-    <option name="LAST_COMMIT_MESSAGE" value="able to persist shopping cart data with local storage" />
+    <MESSAGE value="added checkout button" />
+    <option name="LAST_COMMIT_MESSAGE" value="added checkout button" />
   </component>
 </project>
