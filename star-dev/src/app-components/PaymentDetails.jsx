@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import {useStripe, useElements, CardElement} from "@stripe/react-stripe-js";
 import {useNavigate} from "react-router";
 import { apiInstance} from "../Utils";
+import {Button} from "@mui/material";
 
 const initialAddressState = {
   line1:'',
@@ -323,9 +324,20 @@ export default function PaymentDetails({subtotal, cart, setCart, setSubtotal}){
           />
         </div>
         <br/>
-        <button
-          type="submit">Pay Now
-        </button>
+
+        <Button
+          size="large"
+          variant="contained"
+          color="tertiary"
+          style={{
+            color: "white"
+          }}
+          type="submit"
+
+        >
+          Pay Now
+
+        </Button>
       </form>
     </div>
 
