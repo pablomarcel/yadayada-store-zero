@@ -6,7 +6,7 @@ import PaymentDetails from "./PaymentDetails";
 
 const stripePromise = loadStripe(publishableKey)
 
-export default function Payment({subtotal, cart}){
+export default function Payment({subtotal, cart, setCart, setSubtotal}){
 
   return(
     <Elements stripe={stripePromise}>
@@ -14,6 +14,8 @@ export default function Payment({subtotal, cart}){
       <PaymentDetails
         subtotal={subtotal}
         cart={cart}
+        setCart={setCart}
+        setSubtotal={setSubtotal}
 
       />
 

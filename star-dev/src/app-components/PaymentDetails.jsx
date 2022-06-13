@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import {useStripe, useElements, CardElement} from "@stripe/react-stripe-js";
 import {useNavigate} from "react-router";
 import { apiInstance} from "../Utils";
@@ -11,7 +11,7 @@ const initialAddressState = {
   country:''
 }
 
-export default function PaymentDetails({subtotal, cart}){
+export default function PaymentDetails({subtotal, cart, setCart, setSubtotal}){
 
   const [name, setName]= useState("")
   const [street, setStreet]= useState("")
@@ -42,10 +42,7 @@ export default function PaymentDetails({subtotal, cart}){
     })
   }
 
-
   const handleForm = async e => {
-
-    // gets the element entity that triggered the event, in this case the form.
 
     e.preventDefault()
     const cardElement = elements.getElement('card')
@@ -85,7 +82,6 @@ export default function PaymentDetails({subtotal, cart}){
               }
             })
           }
-          // supposed to do something here?
 
           const target = e.target
           console.log('form button clicked')
@@ -99,14 +95,14 @@ export default function PaymentDetails({subtotal, cart}){
           setBillingAddress({...initialAddressState})
           setShippingAddress({...initialAddressState})
           target.reset()
+          setCart([])
+          setSubtotal(0)
           navigate("/")
         })
       })
     })
 
   }
-
-
 
   const configCardElement = {
     iconStyle: 'solid',
@@ -117,7 +113,6 @@ export default function PaymentDetails({subtotal, cart}){
     },
     hidePostalCode: true
   }
-
 
   return(
     <div>
@@ -137,9 +132,8 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={(event)=> setName(event.target.value)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="John Doe"
             // pattern="^\w+\s*\w+$"
-            // pattern="/^[A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+([\ A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+)*/u"
 
           />
         </div>
@@ -154,7 +148,7 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="123 Infinite Loop"
             // pattern="^\w+\s*\w+$"
           />
         </div>
@@ -169,7 +163,7 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="Sun City"
             // pattern="\d{1,}"
           />
         </div>
@@ -185,8 +179,8 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
-            placeholder=""
-            // pattern="\d{1,}"
+            placeholder="WA"
+            pattern="^[A-Z]{2}$"
           />
         </div>
 
@@ -201,7 +195,7 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="98000"
             // pattern="\d{1,}"
           />
         </div>
@@ -217,8 +211,8 @@ export default function PaymentDetails({subtotal, cart}){
             // onChange={(event)=> setCountry(event.target.value)}
             className="form-control"
             type="text"
-            // placeholder=""
-            // pattern="\d{1,}"
+            placeholder="US"
+            pattern="^[A-Z]{2}$"
           />
         </div>
 
@@ -235,9 +229,8 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={(event)=> setName(event.target.value)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="John Doe"
             // pattern="^\w+\s*\w+$"
-            // pattern="/^[A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+([\ A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+)*/u"
 
           />
         </div>
@@ -252,7 +245,7 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="123 Infinite Loop"
             // pattern="^\w+\s*\w+$"
           />
         </div>
@@ -267,7 +260,7 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="Sun City"
             // pattern="\d{1,}"
           />
         </div>
@@ -283,8 +276,8 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
-            placeholder=""
-            // pattern="\d{1,}"
+            placeholder="WA"
+            pattern="^[A-Z]{2}$"
           />
         </div>
 
@@ -299,7 +292,7 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
-            placeholder=""
+            placeholder="98000"
             // pattern="\d{1,}"
           />
         </div>
@@ -315,13 +308,12 @@ export default function PaymentDetails({subtotal, cart}){
             onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
-            // placeholder=""
-            // pattern="\d{1,}"
+            placeholder="US"
+            pattern="^[A-Z]{2}$"
           />
         </div>
         <br/>
 
-        {/*insert Stripe Component Pay Now Here In Place of the Default Submit Button*/}
         <div>
           <h2>
             Card Details
@@ -331,35 +323,11 @@ export default function PaymentDetails({subtotal, cart}){
           />
         </div>
         <br/>
-
         <button
           type="submit">Pay Now
         </button>
-
-
-
-
-        {/*<div className="form-group mb-2">*/}
-        {/*  <input*/}
-        {/*    id="submit"*/}
-        {/*    className="btn btn-primary"*/}
-        {/*    type="submit"*/}
-        {/*    value="Submit Form"*/}
-        {/*    style={{*/}
-        {/*      backgroundColor: "#009688",*/}
-        {/*      border:"none"*/}
-        {/*    }}*/}
-
-        {/*  />*/}
-        {/*</div>*/}
       </form>
-
-
     </div>
-
-
-
-
 
   )
 }

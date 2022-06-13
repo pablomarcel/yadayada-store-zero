@@ -115,7 +115,8 @@ function App() {
                   <Route path="/payment" element = {<Payment
                     subtotal={subtotal}
                     cart={cart}
-
+                    setCart={setCart}
+                    setSubtotal={setSubtotal}
                   />
                   }
                   />

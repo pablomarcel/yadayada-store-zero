@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="first attempt at Stripe API integration, Created Payment and PaymentDetails components.">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Able to process a credit card payment with the local express server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/Utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/Utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Payment.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,14 +78,7 @@
       <workItem from="1654996627852" duration="19257000" />
       <workItem from="1655048180449" duration="12538000" />
       <workItem from="1655073862364" duration="80000" />
-      <workItem from="1655074200701" duration="14196000" />
-    </task>
-    <task id="LOCAL-00020" summary="Material UI Tweaks">
-      <created>1653251926209</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1653251926209</updated>
+      <workItem from="1655074200701" duration="16071000" />
     </task>
     <task id="LOCAL-00021" summary="pokemon detail working">
       <created>1653254764904</created>
@@ -423,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655083021322</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Able to process a credit card payment with the local express server">
+      <created>1655090296937</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1655090296937</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to use the masonry component for products" />
     <MESSAGE value="able to display the products in a masonry pattern" />
     <MESSAGE value="able to add images to the product cards" />
     <MESSAGE value="able to display product details. need to materialize component" />
@@ -466,6 +465,7 @@
     <MESSAGE value="Updated Styles" />
     <MESSAGE value="Updated product details styles" />
     <MESSAGE value="first attempt at Stripe API integration, Created Payment and PaymentDetails components." />
-    <option name="LAST_COMMIT_MESSAGE" value="first attempt at Stripe API integration, Created Payment and PaymentDetails components." />
+    <MESSAGE value="Able to process a credit card payment with the local express server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Able to process a credit card payment with the local express server" />
   </component>
 </project>
