@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Updated Styles">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Updated product details styles">
+      <change afterPath="$PROJECT_DIR$/star-dev/src/Utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Payment.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/star-dev/src/stripe/config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,14 +86,9 @@
       <workItem from="1654978776096" duration="9649000" />
       <workItem from="1654988523404" duration="7980000" />
       <workItem from="1654996627852" duration="19257000" />
-      <workItem from="1655048180449" duration="12132000" />
-    </task>
-    <task id="LOCAL-00018" summary="able to display pokemon details">
-      <created>1653248070081</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1653248070081</updated>
+      <workItem from="1655048180449" duration="12538000" />
+      <workItem from="1655073862364" duration="80000" />
+      <workItem from="1655074200701" duration="8186000" />
     </task>
     <task id="LOCAL-00019" summary="able to add Material-UI Styles">
       <created>1653249936713</created>
@@ -418,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655058874525</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Updated product details styles">
+      <created>1655073488991</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1655073488991</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +451,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cleaned up, no new functionality" />
     <MESSAGE value="able to fetch data from the firestore database and display it in the browser" />
     <MESSAGE value="able to use the masonry component for products" />
     <MESSAGE value="able to display the products in a masonry pattern" />
@@ -461,6 +475,7 @@
     <MESSAGE value="added a Checkout component. Upgraded Navigation, updated UI" />
     <MESSAGE value="Added a Checkout Form, Updated UI" />
     <MESSAGE value="Updated Styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Styles" />
+    <MESSAGE value="Updated product details styles" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated product details styles" />
   </component>
 </project>

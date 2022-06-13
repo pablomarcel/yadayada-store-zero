@@ -68,7 +68,8 @@ export default function ShoppingCart({cart, removeFromCart, sum}){
                 style={{
                   color: "white"
                 }}
-                onClick={()=>navigate("/checkoutpage")}
+                // onClick={()=>navigate("/checkoutpage")}
+                onClick={()=>navigate("/payment")}
               >
                 Checkout
               </Button>
@@ -79,3 +80,5 @@ export default function ShoppingCart({cart, removeFromCart, sum}){
     </div>
   )
 }
+
+//need to pass the sum prop to CheckoutPage

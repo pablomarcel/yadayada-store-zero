@@ -1,14 +1,27 @@
 import React from "react";
+import { cardElement, useStripe, useElements} from "@stripe/react-stripe-js";
+import {useNavigate} from "react-router";
+import { apiInstance} from "../Utils";
 
-export default function CheckoutForm({
+
+export default function CheckoutForm(
+  {
   setName,
   setStreet,
   setCity,
   setState,
   setCode,
   setCountry,
-  handleForm
-                                     }){
+  handleForm,
+  subtotal
+                                     }
+                                     ){
+
+  const stripe = useStripe()
+  const elements = useElements()
+  const history = useNavigate()
+
+
 
   return(
 
@@ -98,6 +111,8 @@ export default function CheckoutForm({
         />
       </div>
       <br/>
+
+      {/*insert Stripe Component Pay Now Here In Place of the Default Submit Button*/}
 
       <div className="form-group mb-2">
         <input

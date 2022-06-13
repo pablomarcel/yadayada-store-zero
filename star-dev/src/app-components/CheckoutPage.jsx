@@ -2,8 +2,13 @@ import React from "react";
 import {useState} from "react";
 import CheckoutForm from "./CheckoutForm";
 import {useNavigate} from "react-router";
+import {Elements} from "@stripe/react-stripe-js";
+import {publishableKey} from "../stripe/config";
+import {loadStripe} from "@stripe/stripe-js";
 
-export default function CheckoutPage(){
+const stripePromise = loadStripe(publishableKey)
+
+export default function CheckoutPage({subtotal}){
 
   const [name, setName]= useState("")
   const [street, setStreet]= useState("")
@@ -33,15 +38,26 @@ export default function CheckoutPage(){
   }
 
   return(
+    <Elements
+      stripe={stripePromise}
 
-    <CheckoutForm
-      setName={setName}
-      setStreet={setStreet}
-      setCity={setCity}
-      setState={setState}
-      setCode={setCode}
-      setCountry={setCountry}
-      handleForm={handleForm}/>
+    >
+
+      <CheckoutForm
+        setName={setName}
+        setStreet={setStreet}
+        setCity={setCity}
+        setState={setState}
+        setCode={setCode}
+        setCountry={setCountry}
+        handleForm={handleForm}
+        subtotal={subtotal}
+      />
+
+
+    </Elements>
+
+
 
   )
 }

@@ -19,6 +19,7 @@ import ShoppingCart from "./app-components/ShoppingCart"
 import AddedToCart from "./app-components/AddedToCart";
 import { useLocalStorage} from "@har4s/use-local-storage";
 import CheckoutPage from "./app-components/CheckoutPage";
+import Payment from "./app-components/Payment";
 
 const theme = createTheme({
   palette:{
@@ -105,7 +106,19 @@ function App() {
                   }
                   />
                   <Route path="/addedtocart" element = {<AddedToCart />}/>
-                  <Route path="/checkoutpage" element = {<CheckoutPage />}/>
+                  <Route path="/checkoutpage" element = {<CheckoutPage
+                    subtotal={subtotal}
+
+                  />
+                  }
+                  />
+                  <Route path="/payment" element = {<Payment
+                    subtotal={subtotal}
+                    cart={cart}
+
+                  />
+                  }
+                  />
                   <Route path="*" element = {<NotFound />}/>
                 </Routes>
               </DrawerLeft>
