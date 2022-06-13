@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Able to process a credit card payment with the local express server">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Updated form to indicate placeholder values. Also, able to clear the shopping cart and local storage after checkout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/functions/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/functions/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Payment.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Payment.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/Utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/Utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutForm.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutPage.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,14 +84,7 @@
       <workItem from="1654996627852" duration="19257000" />
       <workItem from="1655048180449" duration="12538000" />
       <workItem from="1655073862364" duration="80000" />
-      <workItem from="1655074200701" duration="16071000" />
-    </task>
-    <task id="LOCAL-00021" summary="pokemon detail working">
-      <created>1653254764904</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1653254764904</updated>
+      <workItem from="1655074200701" duration="18735000" />
     </task>
     <task id="LOCAL-00022" summary="pokemons and berries are working">
       <created>1653257888975</created>
@@ -423,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655090296937</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Updated form to indicate placeholder values. Also, able to clear the shopping cart and local storage after checkout">
+      <created>1655092065779</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1655092065779</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -441,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to display the products in a masonry pattern" />
     <MESSAGE value="able to add images to the product cards" />
     <MESSAGE value="able to display product details. need to materialize component" />
     <MESSAGE value="added MUI styles to ProductDetails.jsx" />
@@ -466,6 +471,7 @@
     <MESSAGE value="Updated product details styles" />
     <MESSAGE value="first attempt at Stripe API integration, Created Payment and PaymentDetails components." />
     <MESSAGE value="Able to process a credit card payment with the local express server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Able to process a credit card payment with the local express server" />
+    <MESSAGE value="Updated form to indicate placeholder values. Also, able to clear the shopping cart and local storage after checkout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated form to indicate placeholder values. Also, able to clear the shopping cart and local storage after checkout" />
   </component>
 </project>

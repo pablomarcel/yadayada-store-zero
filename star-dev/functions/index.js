@@ -37,4 +37,6 @@ app.get("*", (req, res)=>{
 
 exports.api = functions.https.onRequest(app);
 
-// where do I specify shipping and amount?
+
+
+
