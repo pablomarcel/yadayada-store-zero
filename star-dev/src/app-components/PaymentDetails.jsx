@@ -1,14 +1,13 @@
-import React, {useState} from "react";
-import {cardElement, useStripe, useElements, CardElement} from "@stripe/react-stripe-js";
+import React, {useEffect, useState} from "react";
+import {useStripe, useElements, CardElement} from "@stripe/react-stripe-js";
 import {useNavigate} from "react-router";
 import { apiInstance} from "../Utils";
-import {Button} from "@mui/material";
 
 const initialAddressState = {
-  street:'',
+  line1:'',
   city:'',
   state:'',
-  code:'',
+  postal_code:'',
   country:''
 }
 
@@ -27,6 +26,23 @@ export default function PaymentDetails({subtotal, cart}){
   const elements = useElements()
   const total = subtotal
 
+  const handleShipping = e =>{
+    const {name, value } = e.target
+    setShippingAddress({
+      ...shippingAddress,
+      [name]:value
+    })
+  }
+
+  const handleBilling = e =>{
+    const {name, value } = e.target
+    setBillingAddress({
+      ...billingAddress,
+      [name]:value
+    })
+  }
+
+
   const handleForm = async e => {
 
     // gets the element entity that triggered the event, in this case the form.
@@ -44,7 +60,7 @@ export default function PaymentDetails({subtotal, cart}){
       }
     }).then(({data: clientSecret}) =>{
       stripe.createPaymentMethod({
-        type:'Card',
+        type:"card",
         card: cardElement,
         billing_details:{
           name:name,
@@ -53,46 +69,44 @@ export default function PaymentDetails({subtotal, cart}){
           }
         }
       }).then(({paymentMethod})=>{
+        stripe.confirmCardPayment(clientSecret,{
+          payment_method: paymentMethod.id
+        }).then(({paymentIntent})=> {
+          const configOrder = {
+            orderTotal: total,
+            orderItems: cart.map(item => {
+              const {name, price, description, image} = item
 
-        // payment_method is defined but never used???
+              return {
+                name,
+                price,
+                description,
+                image
+              }
+            })
+          }
+          // supposed to do something here?
 
-        // payment_method: paymentMethod.id
-        paymentMethod.id
+          const target = e.target
+          console.log('form button clicked')
 
-
-      }).then(({paymentIntent})=>{
-        const configOrder = {
-          orderTotal: total,
-          orderItems: cart.map(item=>{
-            const { name, price, description, image } = item
-
-            return{
-              name,
-              price,
-              description,
-              image
-            }
-          })
-        }
-        // supposed to do something here?
-
-        const target = e.target
-        console.log('form button clicked')
-
-        setName("")
-        setStreet("")
-        setCity("")
-        setState("")
-        setCode("")
-        setCountry("")
-        setBillingAddress({...initialAddressState})
-        setShippingAddress({...initialAddressState})
-        target.reset()
-        navigate("/")
-
+          setName("")
+          setStreet("")
+          setCity("")
+          setState("")
+          setCode("")
+          setCountry("")
+          setBillingAddress({...initialAddressState})
+          setShippingAddress({...initialAddressState})
+          target.reset()
+          navigate("/")
+        })
       })
     })
+
   }
+
+
 
   const configCardElement = {
     iconStyle: 'solid',
@@ -125,17 +139,19 @@ export default function PaymentDetails({subtotal, cart}){
             type="text"
             placeholder=""
             // pattern="^\w+\s*\w+$"
-            pattern="/^[A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+([\ A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+)*/u"
+            // pattern="/^[A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+([\ A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+)*/u"
 
           />
         </div>
         <div className="form-group mb-2">
-          <label htmlFor="street">Street</label>
+          <label htmlFor="line1">line1</label>
           <input
             required
-            id="street"
-            name="street"
-            onChange={(event)=> setStreet(event.target.value)}
+            id="line1"
+            name="line1"
+            value={shippingAddress.line1}
+            // onChange={(event)=> setStreet(event.target.value)}
+            onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -148,7 +164,9 @@ export default function PaymentDetails({subtotal, cart}){
             required
             id="city"
             name="city"
-            onChange={(event)=> setCity(event.target.value)}
+            value={shippingAddress.city}
+            // onChange={(event)=> setCity(event.target.value)}
+            onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -162,7 +180,9 @@ export default function PaymentDetails({subtotal, cart}){
             required
             id="state"
             name="state"
-            onChange={(event)=> setState(event.target.value)}
+            value={shippingAddress.state}
+            // onChange={(event)=> setState(event.target.value)}
+            onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -171,12 +191,14 @@ export default function PaymentDetails({subtotal, cart}){
         </div>
 
         <div className="form-group mb-2">
-          <label htmlFor="code">Postal Code</label>
+          <label htmlFor="postal_code">Postal Code</label>
           <input
             required
-            id="code"
-            name="code"
-            onChange={(event)=> setCode(event.target.value)}
+            id="postal_code"
+            name="postal_code"
+            value={shippingAddress.postal_code}
+            // onChange={(event)=> setCode(event.target.value)}
+            onChange={e=>handleShipping(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -190,7 +212,9 @@ export default function PaymentDetails({subtotal, cart}){
             required
             id="country"
             name="country"
-            onChange={(event)=> setCountry(event.target.value)}
+            value={shippingAddress.country}
+            onChange={e=>handleShipping(e)}
+            // onChange={(event)=> setCountry(event.target.value)}
             className="form-control"
             type="text"
             // placeholder=""
@@ -213,17 +237,19 @@ export default function PaymentDetails({subtotal, cart}){
             type="text"
             placeholder=""
             // pattern="^\w+\s*\w+$"
-            pattern="/^[A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+([\ A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+)*/u"
+            // pattern="/^[A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+([\ A-Za-z\x{00C0}-\x{00FF}][A-Za-z\x{00C0}-\x{00FF}\'\-]+)*/u"
 
           />
         </div>
         <div className="form-group mb-2">
-          <label htmlFor="street">Street</label>
+          <label htmlFor="line1">line1</label>
           <input
             required
-            id="street"
-            name="street"
-            onChange={(event)=> setStreet(event.target.value)}
+            id="line1"
+            name="line1"
+            value={billingAddress.line1}
+            // onChange={(event)=> setStreet(event.target.value)}
+            onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -236,7 +262,9 @@ export default function PaymentDetails({subtotal, cart}){
             required
             id="city"
             name="city"
-            onChange={(event)=> setCity(event.target.value)}
+            value={billingAddress.city}
+            // onChange={(event)=> setCity(event.target.value)}
+            onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -250,7 +278,9 @@ export default function PaymentDetails({subtotal, cart}){
             required
             id="state"
             name="state"
-            onChange={(event)=> setState(event.target.value)}
+            value={billingAddress.state}
+            // onChange={(event)=> setState(event.target.value)}
+            onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -259,12 +289,14 @@ export default function PaymentDetails({subtotal, cart}){
         </div>
 
         <div className="form-group mb-2">
-          <label htmlFor="code">Postal Code</label>
+          <label htmlFor="postal_code">Postal Code</label>
           <input
             required
-            id="code"
-            name="code"
-            onChange={(event)=> setCode(event.target.value)}
+            id="postal_code"
+            name="postal_code"
+            value={billingAddress.postal_code}
+            // onChange={(event)=> setCode(event.target.value)}
+            onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
             placeholder=""
@@ -278,7 +310,9 @@ export default function PaymentDetails({subtotal, cart}){
             required
             id="country"
             name="country"
-            onChange={(event)=> setCountry(event.target.value)}
+            value={billingAddress.country}
+            // onChange={(event)=> setCountry(event.target.value)}
+            onChange={e=>handleBilling(e)}
             className="form-control"
             type="text"
             // placeholder=""
@@ -296,9 +330,11 @@ export default function PaymentDetails({subtotal, cart}){
             options={configCardElement}
           />
         </div>
+        <br/>
 
-        <Button
-          type="submit">Pay Now</Button>
+        <button
+          type="submit">Pay Now
+        </button>
 
 
 

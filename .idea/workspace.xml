@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Updated product details styles">
-      <change afterPath="$PROJECT_DIR$/star-dev/src/Utils/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/Payment.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/star-dev/src/stripe/config.js" afterDir="false" />
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="first attempt at Stripe API integration, Created Payment and PaymentDetails components.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/functions/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/CheckoutPage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/ShoppingCart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/Utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/Utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,14 +78,7 @@
       <workItem from="1654996627852" duration="19257000" />
       <workItem from="1655048180449" duration="12538000" />
       <workItem from="1655073862364" duration="80000" />
-      <workItem from="1655074200701" duration="8186000" />
-    </task>
-    <task id="LOCAL-00019" summary="able to add Material-UI Styles">
-      <created>1653249936713</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1653249936713</updated>
+      <workItem from="1655074200701" duration="14196000" />
     </task>
     <task id="LOCAL-00020" summary="Material UI Tweaks">
       <created>1653251926209</created>
@@ -433,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655073488991</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="first attempt at Stripe API integration, Created Payment and PaymentDetails components.">
+      <created>1655083021322</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1655083021322</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="able to fetch data from the firestore database and display it in the browser" />
     <MESSAGE value="able to use the masonry component for products" />
     <MESSAGE value="able to display the products in a masonry pattern" />
     <MESSAGE value="able to add images to the product cards" />
@@ -476,6 +465,7 @@
     <MESSAGE value="Added a Checkout Form, Updated UI" />
     <MESSAGE value="Updated Styles" />
     <MESSAGE value="Updated product details styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated product details styles" />
+    <MESSAGE value="first attempt at Stripe API integration, Created Payment and PaymentDetails components." />
+    <option name="LAST_COMMIT_MESSAGE" value="first attempt at Stripe API integration, Created Payment and PaymentDetails components." />
   </component>
 </project>
