@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, Updated the README file">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, removed junk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,14 +78,11 @@
       <workItem from="1654996627852" duration="19257000" />
       <workItem from="1655048180449" duration="12538000" />
       <workItem from="1655073862364" duration="80000" />
-      <workItem from="1655074200701" duration="21954000" />
-    </task>
-    <task id="LOCAL-00025" summary="Final Commit">
-      <created>1653260573671</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1653260573671</updated>
+      <workItem from="1655074200701" duration="22033000" />
+      <workItem from="1655168567059" duration="3489000" />
+      <workItem from="1655179397257" duration="2715000" />
+      <workItem from="1655182304111" duration="320000" />
+      <workItem from="1655359437628" duration="5013000" />
     </task>
     <task id="LOCAL-00026" summary="Final Commit, added linting">
       <created>1653349039182</created>
@@ -421,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655097269106</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Final Commit, removed junk">
+      <created>1655097884278</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1655097884278</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -439,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="switch to Teal Color Palette" />
     <MESSAGE value="UI updates" />
     <MESSAGE value="Refactored code, displays all products from the database" />
     <MESSAGE value="added .env to .gitignore" />
@@ -464,6 +469,7 @@
     <MESSAGE value="updated eslint file to fix firebase functions deployment&#10;close to final commit." />
     <MESSAGE value="Final Commit, Updated Pay Now Button" />
     <MESSAGE value="Final Commit, Updated the README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, Updated the README file" />
+    <MESSAGE value="Final Commit, removed junk" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, removed junk" />
   </component>
 </project>
