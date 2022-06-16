@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, removed junk">
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, replaced permanent drawer with persistent drawer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star-dev/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/DrawerLeft.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,14 +82,7 @@
       <workItem from="1655168567059" duration="3489000" />
       <workItem from="1655179397257" duration="2715000" />
       <workItem from="1655182304111" duration="320000" />
-      <workItem from="1655359437628" duration="5013000" />
-    </task>
-    <task id="LOCAL-00026" summary="Final Commit, added linting">
-      <created>1653349039182</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1653349039182</updated>
+      <workItem from="1655359437628" duration="10062000" />
     </task>
     <task id="LOCAL-00027" summary="Final Commit, removed README.md">
       <created>1653349197799</created>
@@ -427,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655097884278</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Final Commit, replaced permanent drawer with persistent drawer">
+      <created>1655364821932</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1655364821932</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="UI updates" />
     <MESSAGE value="Refactored code, displays all products from the database" />
     <MESSAGE value="added .env to .gitignore" />
     <MESSAGE value="added a side drawer component" />
@@ -470,6 +469,7 @@
     <MESSAGE value="Final Commit, Updated Pay Now Button" />
     <MESSAGE value="Final Commit, Updated the README file" />
     <MESSAGE value="Final Commit, removed junk" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, removed junk" />
+    <MESSAGE value="Final Commit, replaced permanent drawer with persistent drawer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, replaced permanent drawer with persistent drawer" />
   </component>
 </project>

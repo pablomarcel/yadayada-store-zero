@@ -71,8 +71,6 @@ function App() {
   function removeFromCart(idx){
     setSum(Number(sum)-Number(cart[idx].price))
     setSubtotal(Number(subtotal)-Number(cart[idx].price))
-
-    console.log('button clicked')
     setCart([...cart.slice(0, idx), ...cart.slice(idx+1, cart.length)])
 
   }

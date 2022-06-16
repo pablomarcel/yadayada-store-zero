@@ -8,10 +8,11 @@ import List from '@mui/material/List'
 import ListItemIcon from '@mui/material/ListItemIcon'
 import ListItemText from '@mui/material/ListItemText'
 import { LocalOffer, Home, Menu} from '@mui/icons-material'
-import {IconButton, ListItemButton, Toolbar} from "@mui/material";
+import {Box, IconButton, ListItemButton, Toolbar} from "@mui/material";
 import { ChevronLeft } from '@mui/icons-material'
 import { ChevronRight } from '@mui/icons-material'
 import MuiAppBar from '@mui/material/AppBar';
+import {format} from "date-fns";
 
 const drawerWidth = 240
 
@@ -163,7 +164,34 @@ export default function DrawerLeft({ children }) {
           >
             Menu
           </Typography>
+
         </Toolbar>
+
+        <Toolbar>
+
+          <Typography
+            className={classes.date}
+            textAlign="center"
+            color="#009688"
+          >
+            <center><img src="https://fontmeme.com/permalink/220610/2f6798e0ac6e2a6f38e4f3769a208d66.png" alt="Yada Yada"/></center>
+          </Typography>
+
+        </Toolbar>
+
+        <Toolbar>
+
+          <Typography
+            className={classes.date}
+            textAlign="center"
+            color="#009688"
+          >
+            {format(new Date(), 'do MMMM Y')}
+          </Typography>
+
+        </Toolbar>
+
+
       </AppBar>
 
       {/* side drawer */}
@@ -178,9 +206,6 @@ export default function DrawerLeft({ children }) {
         anchor="left"
         open={open}
       >
-
-
-
 
         <DrawerHeader>
           <IconButton onClick = {handleDrawerClose}>
