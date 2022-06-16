@@ -142,23 +142,29 @@ export default function DrawerLeft({ children }) {
       >
         <Toolbar>
           <IconButton
+            size="large"
             color="inherit"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
-            sx={{ mr: 2, ...(open && { display: 'none' }) }}
+            sx={{
+              mr: 2, ...(open && { display: 'none' }),
+          }}
             style={{
               color: "#009688",
 
             }}
           >
-            <Menu />
+            <Menu
+
+            />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h5"
             noWrap component="div"
             style={{
-              color:"#009688"
+              color:"#009688",
+              fontWeight: "bold"
             }}
 
           >
