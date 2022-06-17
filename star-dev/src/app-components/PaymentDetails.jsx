@@ -109,7 +109,7 @@ export default function PaymentDetails({subtotal, cart, setCart, setSubtotal}){
     iconStyle: 'solid',
     style: {
       base: {
-        fontSize: '16px'
+        fontSize: '18px'
       }
     },
     hidePostalCode: true
@@ -321,6 +321,7 @@ export default function PaymentDetails({subtotal, cart, setCart, setSubtotal}){
           </h2>
           <CardElement
             options={configCardElement}
+
           />
         </div>
         <br/>
