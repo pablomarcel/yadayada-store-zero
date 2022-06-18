@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, increased the Menu Font Size">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/star-dev/src/app-components/PaymentDetails.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="0d235000-6a27-44f1-9a54-33560d147b4f" name="Changes" comment="Final Commit, increased the Font Size for the Credit Card Element" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,14 +78,7 @@
       <workItem from="1655179397257" duration="2715000" />
       <workItem from="1655182304111" duration="320000" />
       <workItem from="1655359437628" duration="10640000" />
-      <workItem from="1655420845770" duration="2393000" />
-    </task>
-    <task id="LOCAL-00029" summary="initial commit">
-      <created>1654491382960</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1654491382960</updated>
+      <workItem from="1655420845770" duration="3119000" />
     </task>
     <task id="LOCAL-00030" summary="refactored, added color palette">
       <created>1654652571495</created>
@@ -426,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655422997761</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Final Commit, increased the Font Size for the Credit Card Element">
+      <created>1655425256416</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1655425256417</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -444,7 +441,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added a side drawer component" />
     <MESSAGE value="need to add toolbar with current date" />
     <MESSAGE value="attempting to fix react dependency hell" />
     <MESSAGE value="updated ui, added a toolbar with current date in Navbar.jsx" />
@@ -469,6 +465,7 @@
     <MESSAGE value="Final Commit, replaced permanent drawer with persistent drawer" />
     <MESSAGE value="Final Commit, refactored to fix appbar in Drawer Component" />
     <MESSAGE value="Final Commit, increased the Menu Font Size" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, increased the Menu Font Size" />
+    <MESSAGE value="Final Commit, increased the Font Size for the Credit Card Element" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Commit, increased the Font Size for the Credit Card Element" />
   </component>
 </project>
